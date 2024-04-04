@@ -1,0 +1,99 @@
+{
+  "speciality": {
+    "id": 1,
+    "name": "Super Speciality Branches",
+    "slug": "super-speciality-branches",
+    "branches": [
+      {
+        "id": 11,
+        "name": "Medicines",
+        "slug": "medicines",
+        "departments": [
+          { "id": 111, "name": "Delivery", "slug": "delivery" },
+          { "id": 112, "name": "Well Baby Clinic", "slug": "well-baby-clinic" },
+          { "id": 113, "name": "Dialysis", "slug": "dialysis" },
+          { "id": 114, "name": "Physiotherapy", "slug": "physiotherapy" },
+          { "id": 115, "name": "Pharmacy", "slug": "pharmacy" }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Pae Diatrics",
+        "slug": "pae-diatrics",
+        "departments": [
+          { "id": 121, "name": "Nursery / NICU", "slug": "nursery-nicu" },
+          { "id": 122, "name": "Vaccination", "slug": "vaccination" },
+          { "id": 123, "name": "Well Baby Clinic", "slug": "well-baby-clinic" },
+          { "id": 124, "name": "Phototherapy", "slug": "phototherapy" }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Nephrology",
+        "slug": "nephrology",
+        "departments": [
+          { "id": 131, "name": "Dialysis", "slug": "dialysis" },
+          { "id": 132, "name": "Nephro Clinic", "slug": "nephro-clinic" },
+          { "id": 133, "name": "Fistula", "slug": "fistula" },
+          { "id": 134, "name": "Pemacathintertion", "slug": "pemacathintertion" }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Gynae",
+        "slug": "gynae",
+        "departments": [
+          { "id": 141, "name": "ANC Clinic", "slug": "anc-clinic" },
+          { "id": 142, "name": "MTP | Abortion", "slug": "mtp-abortion" },
+          { "id": 143, "name": "Delivery", "slug": "delivery" },
+          { "id": 144, "name": "Caesarean Section", "slug": "caesarean-section" },
+          { "id": 145, "name": "Hysterectomy", "slug": "hysterectomy" },
+          { "id": 146, "name": "Infertility Clinic", "slug": "infertility-clinic" }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Orthopedics",
+        "slug": "orthopedics",
+        "departments": [
+          { "id": 151, "name": "Fracture Clinic", "slug": "fracture-clinic" },
+          { "id": 152, "name": "Physiotherapy", "slug": "physiotherapy" }
+        ]
+      },
+      {
+          "id": 16,
+          "name": "Surgery",
+          "slug": "surgery",
+          "departments": [
+            { "id": 161, "name": "Laproscopic", "slug": "laproscopic" },
+            { "id": 162, "name": "All Types of Gen.", "slug": "all-types-of-gen." },
+            { "id": 163, "name": "Cosmetic & Plastic Surgery", "slug": "cosmetic-plastic-surgery" }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Gastroenterology",
+          "slug": "gastroenterology",
+          "departments": [
+            { "id": 171, "name": "GE Clinic", "slug": "ge-clinic" },
+            { "id": 172, "name": "UGI endoscopy", "slug": "ugi-endoscopy" },
+            { "id": 173, "name": "Colonoscopy", "slug": "colonoscopy" },
+            { "id": 174, "name": "MRCP/ERCP etc.", "slug": "mrcp-ercp-etc." }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Emergency",
+          "slug": "emergency",
+          "departments": [
+            { "id": 181, "name": "ICU | NICU", "slug": "icu-nicu" },
+            { "id": 182, "name": "Dialysis", "slug": "dialysis" },
+            { "id": 183, "name": "Ambulance", "slug": "ambulance" },
+            { "id": 184, "name": "Lab & Pharmacy", "slug": "lab-pharmacy" },
+            { "id": 185, "name": "X-ray, ECG, ABG", "slug": "x-ray-ecg-abg" }
+          ]
+        }
+      
+    ]
+  }
+}

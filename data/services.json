@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Aaditya  Medicines",
+    "description": "Explore our super specialty branches, including Medicine, Pediatrics, Nephrology, Gynecology...",
+    "icon": "FaCoffee",
+    "image": "about-image-01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Well Baby Clinic",
+    "description": "With state-of-the-art facilities and a dedicated team, we're here to support your personalized healthcare solutions..",
+    "icon": "FaHeart",
+    "image": "about-image-02.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Phototherapy",
+    "description": "From specialized treatments to emergency care, we're committed to providing exceptional...",
+    "icon": "FaCoffee",
+    "image": "about-image.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Laproscopic",
+    "description": "pharmacy, and advanced diagnostic imaging like x-ray, ECG, and ABG ound-the-clock care, including..",
+    "icon": "FaHeart",
+    "image": "about-image-01.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cosmetic & Plastic Surgery",
+    "description": "Our emergency services offer round-the-clock care, including ICU and NICU facilities, ambulance services...",
+    "icon": "FaCoffee",
+    "image": "about-image-02.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Nephrology",
+    "description": "From specialized treatments to emergency care, we're committed to providing exceptional...",
+    "icon": "FaHeart",
+    "image": "about-image-01.jpg"
+  }
+]

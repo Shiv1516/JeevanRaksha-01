@@ -1,0 +1,23 @@
+[
+  {
+    "imageUrl": "url_to_banner1",
+    "heading": "Dynamic Heading 1",
+    "subtext": "Subtext for dynamic slide 1",
+    "button1Text": "Dynamic Left Button 1",
+    "button2Text": "Dynamic Middle Button 1"
+  },
+  {
+    "imageUrl": "url_to_banner2",
+    "heading": "Dynamic Heading 2",
+    "subtext": "Subtext for dynamic slide 2",
+    "button1Text": "Dynamic Left Button 2",
+    "button2Text": "Dynamic Middle Button 2"
+  },
+  {
+    "imageUrl": "url_to_banner3",
+    "heading": "Dynamic Heading 3",
+    "subtext": "Subtext for dynamic slide 3",
+    "button1Text": "Dynamic Left Button 3",
+    "button2Text": "Dynamic Middle Button 3"
+  }
+]

@@ -1,0 +1,39 @@
+.faq-accordion {
+  margin-right: 24px;
+}
+.faq-item {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin-bottom: 16px;
+  padding: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #f9fdff;
+}
+
+.question {
+  display: flex;
+  line-height: 24px;
+  color: #414d58;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  transform-origin: top;
+}
+
+.visible {
+  max-height: 500px;
+  min-height: 66px;
+  transform: scaleY(1);
+}
+
+.hidden {
+  max-height: 0;
+  transform: scaleY(0);
+}

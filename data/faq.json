@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What medical services does the hospital provide?",
+    "answer": "The hospital provides a wide range of medical services, including but not limited to cardiology, orthopedics, pediatrics, and emergency care."
+  },
+  {
+    "id": 2,
+    "question": "How can I schedule an appointment with a specialist?",
+    "answer": "You can schedule an appointment with a specialist either by using our online appointment booking system or by contacting our reception."
+  },
+  {
+    "id": 3,
+    "question": "What are the hospital's visiting hours?",
+    "answer": "Visiting hours are from 10 AM to 8 PM every day. However, exceptions may apply in specific cases, so it's advisable to check with the hospital staff."
+  },
+  {
+    "id": 4,
+    "question": "Is there a parking facility available for visitors?",
+    "answer": "Yes, the hospital provides parking facilities for visitors. Please follow the designated parking areas and inquire at the reception for more information."
+  },
+  {
+    "id": 5,
+    "question": "How can I access my medical records online?",
+    "answer": "Patients can access their medical records online through our secure patient portal. Please register on our website or contact our medical records department for assistance."
+  }
+]

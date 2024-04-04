@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Dr. Maria Hernandez",
+    "image": "/images/doctor2.png",
+    "specialization": "Medicine Specialist",
+    "rating": "(124)",
+    "education": "MDS - Periodontology and Oral Implantology",
+    "location": "Delhi",
+    "linkedin": "linkedin.com/mariahernandez"
+  },
+  {
+    "name": "Dr. Robert Turner",
+    "image": "/images/doctor3.png",
+    "specialization": "Cardiologist",
+    "rating": "(124)",
+    "education": "MDS - Periodontology and Oral Implantology",
+    "location": "Lucknow",
+    "linkedin": "linkedin.com/turner"
+  },
+  {
+    "name": "Dr. John Smith",
+    "image": "/images/doctor4.png",
+    "specialization": "Neurosurgeon",
+    "rating": "(124)",
+    "education": "MDS - Periodontology and Oral Implantology",
+    "location": "Noida",
+    "linkedin": "linkedin.com/johnsmith"
+  },
+  {
+    "name": "Dr. Sarah Davis",
+    "image": "/images/doctor5.png",
+    "specialization": "Pediatrician",
+    "rating": "(124)",
+    "education": "MDS - Periodontology and Oral Implantology",
+    "location": "Gurgram",
+    "linkedin": "linkedin.com/johnsmith"
+  }
+]

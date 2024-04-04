@@ -1,0 +1,522 @@
+{
+  "medicines": {
+    "delivery": {
+      "overview": {
+        "title": "Overview",
+        "content": "Welcome to the Delivery Specialty at Jeevan Raksha, where we prioritize the well-being and comfort of mothers and newborns throughout the birthing process. Our dedicated team of experienced obstetricians, midwives, and nurses is committed to providing exceptional care tailored to each patient's needs. We understand that every journey to motherhood is unique, which is why we offer personalized support and attention to ensure a safe and comfortable delivery experience. From prenatal care to postnatal support, we strive to empower and guide mothers through this transformative journey with compassion, expertise, and unwavering dedication to their health and happiness. At Jeevan Raksha, we foster a nurturing environment where expectant mothers feel supported, empowered, and informed every step of the way. Our comprehensive services include prenatal education, childbirth classes, lactation support, and postpartum care, ensuring that mothers receive the guidance and resources they need to thrive during this extraordinary time in their lives. We believe in fostering strong bonds between parents and their newborns, promoting skin-to-skin contact, breastfeeding support, and bonding activities to facilitate a smooth transition into parenthood. With state-of-the-art facilities and compassionate care, we strive to make the birthing experience a cherished memory for families that will last a lifetime.",
+        "imageLink": "/images/delivery.jpg"
+      },
+      "services": {
+        "title": "Services Offered",
+        "content": "At Jeevan Raksha, we offer a comprehensive range of delivery services tailored to meet the individual needs of expectant mothers. From prenatal care and childbirth education to labor and delivery assistance, we provide expert medical care and emotional support every step of the way. Our services include natural childbirth, water birth, and cesarean delivery, ensuring that each mother receives the appropriate care based on her preferences and medical needs.",
+        "additionalServices": [
+          {
+            "icon": "FaCoffee",
+            "title": "Express Delivery Options",
+            "content": "Recognizing the urgency often associated with medical deliveries, we offer express delivery options for critical supplies. Whether it's emergency medication or life-saving equipment, our delivery team is equipped to handle expedited requests with the utmost priority."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Customized Delivery Schedules",
+            "content": "We understand that every hospital operates on its unique schedule. That's why we offer customized delivery schedules to accommodate the specific needs and preferences of each facility. Whether you require daily, weekly, or monthly deliveries, we will work with you to create a schedule that ensures uninterrupted supply."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "State-of-the-Art Tracking System",
+            "content": "With our advanced tracking system, you can monitor the status of your deliveries in real-time. From the moment an order is placed to its arrival at your facility, you'll have full visibility every step of the way, providing peace of mind and allowing for efficient planning."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Dedicated Delivery Team",
+            "content": "Our delivery team consists of trained professionals who understand the importance of their role in supporting the healthcare industry. With their expertise and commitment to excellence, you can trust that your deliveries will be handled with care and precision."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Environmental Responsibility",
+            "content": "In addition to efficiency, we are also committed to environmental responsibility. We employ eco-friendly practices in our delivery operations, such as optimizing delivery routes to reduce fuel consumption and minimizing packaging waste."
+          }
+        ]
+      },
+      "medicalTeam": {
+        "title": "Medical Team",
+        "content": "Our team of experienced obstetricians and gynecologists at Jeevan Raksha Hospital are dedicated to ensuring the health and well-being of both mother and baby. With years of experience and expertise in maternal-fetal medicine, our physicians provide compassionate care and guidance throughout pregnancy, labor, and delivery. Supported by skilled midwives, nurses, and support staff, our medical team is committed to delivering safe and successful outcomes for every mother and newborn.",
+        "doctors": [
+          {
+            "name": "Dr. Maria Hernandez",
+            "image": "/images/doctor2.png",
+            "specialization": "Internal Medicine Specialist",
+            "linkedin": "linkedin.com/mariahernandez"
+          },
+          {
+            "name": "Dr. Robert Turner",
+            "image": "/images/doctor3.png",
+            "specialization": "Cardiologist",
+            "linkedin": "linkedin.com/turner"
+          },
+          {
+            "name": "Dr. John Smith",
+            "image": "/images/doctor4.png",
+            "specialization": "Neurosurgeon",
+            "linkedin": "linkedin.com/johnsmith"
+          },
+          {
+            "name": "Dr. Sarah Davis",
+            "image": "/images/doctor5.png",
+            "specialization": "Pediatrician",
+            "linkedin": "linkedin.com/johnsmith"
+          }
+        ]
+      },
+      "facilities": {
+        "title": "Facilities and Technology",
+        "content": "Jeevan Raksha Hospital is equipped with state-of-the-art facilities and advanced technology to support women during labor and delivery. Our spacious and comfortable birthing suites provide a serene environment for mothers and their families, with amenities designed to enhance comfort and relaxation during childbirth. We also offer access to specialized equipment, such as fetal monitoring systems and neonatal resuscitation units, to ensure the safety and well-being of both mother and baby.",
+        "facilitiesList": [
+          "Modern Infrastructure",
+          "Specialized Departments",
+          "Advanced Operating Theaters",
+          "Diagnostic Imaging Center",
+          "Laboratory Services"
+        ],
+        "techList": [
+          "Electronic Health Records (EHR)",
+          "Telemedicine Services",
+          "Robotic Surgery",
+          "Patient Monitoring Systems"
+        ],
+        "imageLink": "/images/delivery-tech.jpg"
+      }
+    },
+    "well-baby-clinic": {
+      "overview": {
+        "title": "Overview",
+        "content": "Welcome to Jeevan Raksha Hospital's Well Baby Clinic, where we prioritize the health and development of your little ones. Our clinic is dedicated to providing comprehensive healthcare services for infants and young children, ensuring that they receive the care and support they need to thrive. With a team of pediatricians, nurses, and specialists, we offer expert medical care and guidance to help parents nurture their child's growth and well-being.",
+        "imageLink": "/images/well-baby-clinic.jpg"
+      },
+      "services": {
+        "title": "Services Offered",
+        "content": "At Jeevan Raksha's Well Baby Clinic, we offer a range of services to promote the health and development of infants and young children. From routine check-ups and vaccinations to developmental screenings and nutritional counseling, we provide personalized care tailored to meet the unique needs of each child. Our services focus on preventive care, early intervention, and parent education, empowering families to give their children the best start in life.",
+        "additionalServices": [
+          {
+            "icon": "FaCoffee",
+            "title": "Express Delivery Options",
+            "content": "Recognizing the urgency often associated with medical deliveries, we offer express delivery options for critical supplies. Whether it's emergency medication or life-saving equipment, our delivery team is equipped to handle expedited requests with the utmost priority."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Customized Delivery Schedules",
+            "content": "We understand that every hospital operates on its unique schedule. That's why we offer customized delivery schedules to accommodate the specific needs and preferences of each facility. Whether you require daily, weekly, or monthly deliveries, we will work with you to create a schedule that ensures uninterrupted supply."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "State-of-the-Art Tracking System",
+            "content": "With our advanced tracking system, you can monitor the status of your deliveries in real-time. From the moment an order is placed to its arrival at your facility, you'll have full visibility every step of the way, providing peace of mind and allowing for efficient planning."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Dedicated Delivery Team",
+            "content": "Our delivery team consists of trained professionals who understand the importance of their role in supporting the healthcare industry. With their expertise and commitment to excellence, you can trust that your deliveries will be handled with care and precision."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Environmental Responsibility",
+            "content": "In addition to efficiency, we are also committed to environmental responsibility. We employ eco-friendly practices in our delivery operations, such as optimizing delivery routes to reduce fuel consumption and minimizing packaging waste."
+          }
+        ]
+      },
+      "medicalTeam": {
+        "title": "Medical Team",
+        "content": "Our team of pediatricians at Jeevan Raksha Hospital is dedicated to providing compassionate and expert care for children of all ages. With specialized training and experience in pediatric medicine, our physicians are skilled in diagnosing and treating a wide range of childhood illnesses and conditions. Supported by caring nurses, pediatric specialists, and support staff, our medical team is committed to delivering the highest quality of care for every child who walks through our doors.",
+        "doctors": [
+          {
+            "name": "Dr. Maria Hernandez",
+            "image": "/images/doctor2.png",
+            "specialization": "Internal Medicine Specialist",
+            "linkedin": "linkedin.com/mariahernandez"
+          },
+          {
+            "name": "Dr. Robert Turner",
+            "image": "/images/doctor3.png",
+            "specialization": "Cardiologist",
+            "linkedin": "linkedin.com/turner"
+          },
+          {
+            "name": "Dr. John Smith",
+            "image": "/images/doctor4.png",
+            "specialization": "Neurosurgeon",
+            "linkedin": "linkedin.com/johnsmith"
+          },
+          {
+            "name": "Dr. Sarah Davis",
+            "image": "/images/doctor5.png",
+            "specialization": "Pediatrician",
+            "linkedin": "linkedin.com/johnsmith"
+          }
+        ]
+      },
+      "facilities": {
+        "title": "Facilities and Technology",
+        "content": "Jeevan Raksha Hospital is equipped with modern facilities and advanced technology to support the healthcare needs of infants and young children. Our Well Baby Clinic features child-friendly examination rooms, vaccination areas, and waiting areas designed to create a welcoming and comfortable environment for families. We also utilize state-of-the-art equipment and tools for diagnostic testing, ensuring accurate assessments and timely interventions for children's health issues.",
+        "facilitiesList": [
+          "Modern Infrastructure",
+          "Specialized Departments",
+          "Advanced Operating Theaters",
+          "Diagnostic Imaging Center",
+          "Laboratory Services"
+        ],
+        "techList": [
+          "Electronic Health Records (EHR)",
+          "Telemedicine Services",
+          "Robotic Surgery",
+          "Patient Monitoring Systems"
+        ],
+        "imageLink": "/images/well-baby-clinic-02.jpg"
+      }
+    },
+    "dialysis": {
+      "overview": {
+        "title": "Overview",
+        "content": "Welcome to Jeevan Raksha Hospital's Dialysis Services, where we provide compassionate and comprehensive care for patients with kidney disease. Our state-of-the-art dialysis unit is equipped with advanced technology and staffed by experienced nephrologists and dialysis nurses, ensuring that patients receive high-quality treatment in a comfortable and supportive environment.",
+        "imageLink": "/images/dialysis.jpg"
+      },
+      "services": {
+        "title": "Services Offered",
+        "content": "At Jeevan Raksha Hospital, we offer a full range of dialysis services to meet the unique needs of each patient. Whether you require hemodialysis or peritoneal dialysis, our skilled team is dedicated to providing personalized treatment plans tailored to your medical condition and lifestyle. We also offer pre-dialysis education, vascular access management, and nutritional counseling to help you manage your kidney disease and improve your quality of life.",
+        "additionalServices": [
+          {
+            "icon": "FaCoffee",
+            "title": "Express Delivery Options",
+            "content": "Recognizing the urgency often associated with medical deliveries, we offer express delivery options for critical supplies. Whether it's emergency medication or life-saving equipment, our delivery team is equipped to handle expedited requests with the utmost priority."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Customized Delivery Schedules",
+            "content": "We understand that every hospital operates on its unique schedule. That's why we offer customized delivery schedules to accommodate the specific needs and preferences of each facility. Whether you require daily, weekly, or monthly deliveries, we will work with you to create a schedule that ensures uninterrupted supply."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "State-of-the-Art Tracking System",
+            "content": "With our advanced tracking system, you can monitor the status of your deliveries in real-time. From the moment an order is placed to its arrival at your facility, you'll have full visibility every step of the way, providing peace of mind and allowing for efficient planning."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Dedicated Delivery Team",
+            "content": "Our delivery team consists of trained professionals who understand the importance of their role in supporting the healthcare industry. With their expertise and commitment to excellence, you can trust that your deliveries will be handled with care and precision."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Environmental Responsibility",
+            "content": "In addition to efficiency, we are also committed to environmental responsibility. We employ eco-friendly practices in our delivery operations, such as optimizing delivery routes to reduce fuel consumption and minimizing packaging waste."
+          }
+        ]
+      },
+      "medicalTeam": {
+        "title": "Medical Team",
+        "content": "Our team of nephrologists at Jeevan Raksha Hospital is committed to providing expert care and support for patients with kidney disease. With specialized training and experience in renal medicine, our physicians are skilled in diagnosing and treating a wide range of kidney-related conditions, including chronic kidney disease, end-stage renal disease, and electrolyte imbalances. Supported by dedicated dialysis nurses and support staff, our medical team works collaboratively to ensure that every patient receives personalized and compassionate care throughout their dialysis treatment.",
+        "doctors": [
+          {
+            "name": "Dr. Maria Hernandez",
+            "image": "/images/doctor2.png",
+            "specialization": "Internal Medicine Specialist",
+            "linkedin": "linkedin.com/mariahernandez"
+          },
+          {
+            "name": "Dr. Robert Turner",
+            "image": "/images/doctor3.png",
+            "specialization": "Cardiologist",
+            "linkedin": "linkedin.com/turner"
+          },
+          {
+            "name": "Dr. John Smith",
+            "image": "/images/doctor4.png",
+            "specialization": "Neurosurgeon",
+            "linkedin": "linkedin.com/johnsmith"
+          },
+          {
+            "name": "Dr. Sarah Davis",
+            "image": "/images/doctor5.png",
+            "specialization": "Pediatrician",
+            "linkedin": "linkedin.com/johnsmith"
+          }
+        ]
+      },
+      "facilities": {
+        "title": "Facilities and Technology",
+        "content": "Jeevan Raksha Hospital's dialysis unit is equipped with advanced technology and modern amenities to provide patients with a comfortable and efficient treatment experience. Our dialysis machines are state-of-the-art, featuring hemodiafiltration and online hemodiafiltration capabilities for optimal dialysis efficiency and patient safety. Additionally, our unit is designed to promote patient comfort and privacy, with spacious treatment bays, comfortable seating, and entertainment options to help patients relax during their dialysis sessions.",
+        "facilitiesList": [
+          "Modern Infrastructure",
+          "Specialized Departments",
+          "Advanced Operating Theaters",
+          "Diagnostic Imaging Center",
+          "Laboratory Services"
+        ],
+        "techList": [
+          "Electronic Health Records (EHR)",
+          "Telemedicine Services",
+          "Robotic Surgery",
+          "Patient Monitoring Systems"
+        ],
+        "imageLink": "/images/dialysis-02.jpg"
+      }
+    },
+    "physiotherapy": {
+      "overview": {
+        "title": "Overview",
+        "content": "Welcome to Jeevan Raksha Hospital's Physiotherapy Services, where we provide personalized and comprehensive rehabilitation programs to help patients restore function, alleviate pain, and improve their quality of life. Our team of experienced physiotherapists is dedicated to providing evidence-based care tailored to meet the unique needs of each patient, helping them achieve their health and wellness goals.",
+        "imageLink": "/images/physiotherapy.jpg"
+      },
+      "services": {
+        "title": "Services Offered",
+        "content": "At Jeevan Raksha Hospital, we offer a wide range of physiotherapy services to address various musculoskeletal, neurological, and cardiopulmonary conditions. From orthopedic rehabilitation and sports injury management to neurological rehabilitation and post-surgical care, our skilled physiotherapists utilize a variety of techniques and modalities to promote healing and recovery. Our services also include pain management, manual therapy, therapeutic exercises, and patient education to empower individuals to take an active role in their rehabilitation journey.",
+        "additionalServices": [
+          {
+            "icon": "FaCoffee",
+            "title": "Express Delivery Options",
+            "content": "Recognizing the urgency often associated with medical deliveries, we offer express delivery options for critical supplies. Whether it's emergency medication or life-saving equipment, our delivery team is equipped to handle expedited requests with the utmost priority."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Customized Delivery Schedules",
+            "content": "We understand that every hospital operates on its unique schedule. That's why we offer customized delivery schedules to accommodate the specific needs and preferences of each facility. Whether you require daily, weekly, or monthly deliveries, we will work with you to create a schedule that ensures uninterrupted supply."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "State-of-the-Art Tracking System",
+            "content": "With our advanced tracking system, you can monitor the status of your deliveries in real-time. From the moment an order is placed to its arrival at your facility, you'll have full visibility every step of the way, providing peace of mind and allowing for efficient planning."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Dedicated Delivery Team",
+            "content": "Our delivery team consists of trained professionals who understand the importance of their role in supporting the healthcare industry. With their expertise and commitment to excellence, you can trust that your deliveries will be handled with care and precision."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Environmental Responsibility",
+            "content": "In addition to efficiency, we are also committed to environmental responsibility. We employ eco-friendly practices in our delivery operations, such as optimizing delivery routes to reduce fuel consumption and minimizing packaging waste."
+          }
+        ]
+      },
+      "medicalTeam": {
+        "title": "Medical Team",
+        "content": "Our team of physiotherapists at Jeevan Raksha Hospital is dedicated to providing compassionate and expert care for patients of all ages and abilities. With specialized training and expertise in rehabilitation medicine, our therapists are skilled in assessing and treating a wide range of physical impairments and functional limitations. Whether you're recovering from surgery, managing a chronic condition, or striving to improve your mobility and strength, our team is committed to helping you achieve your optimal level of function and independence.",
+        "doctors": [
+          {
+            "name": "Dr. Maria Hernandez",
+            "image": "/images/doctor2.png",
+            "specialization": "Internal Medicine Specialist",
+            "linkedin": "linkedin.com/mariahernandez"
+          },
+          {
+            "name": "Dr. Robert Turner",
+            "image": "/images/doctor3.png",
+            "specialization": "Cardiologist",
+            "linkedin": "linkedin.com/turner"
+          },
+          {
+            "name": "Dr. John Smith",
+            "image": "/images/doctor4.png",
+            "specialization": "Neurosurgeon",
+            "linkedin": "linkedin.com/johnsmith"
+          },
+          {
+            "name": "Dr. Sarah Davis",
+            "image": "/images/doctor5.png",
+            "specialization": "Pediatrician",
+            "linkedin": "linkedin.com/johnsmith"
+          }
+        ]
+      },
+      "facilities": {
+        "title": "Facilities and Technology",
+        "content": "Jeevan Raksha Hospital's physiotherapy department is equipped with modern facilities and state-of-the-art equipment to support the rehabilitation needs of our patients. Our spacious therapy gym is designed to accommodate a variety of therapeutic exercises and activities, while our treatment rooms provide a private and comfortable environment for hands-on therapy and modalities. We also utilize advanced technology, such as therapeutic ultrasound, electrical stimulation, and laser therapy, to enhance the effectiveness of our treatment interventions and promote faster recovery.",
+        "facilitiesList": [
+          "Modern Infrastructure",
+          "Specialized Departments",
+          "Advanced Operating Theaters",
+          "Diagnostic Imaging Center",
+          "Laboratory Services"
+        ],
+        "techList": [
+          "Electronic Health Records (EHR)",
+          "Telemedicine Services",
+          "Robotic Surgery",
+          "Patient Monitoring Systems"
+        ],
+        "imageLink": "/images/physiotherapy-02.jpg"
+      }
+    },
+    "pharmacy": {
+      "overview": {
+        "title": "Overview",
+        "content": "Welcome to Jeevan Raksha Hospital's Pharmacy Services, where we provide convenient access to high-quality medications and healthcare products to meet the needs of our patients. Our pharmacy is committed to ensuring the safety, efficacy, and affordability of the medications we dispense, while also offering personalized care and guidance to help patients manage their health and medications effectively.",
+        "imageLink": "/images/pharmacy.jpg"
+      },
+      "services": {
+        "title": "Services Offered",
+        "content": "At Jeevan Raksha Hospital's pharmacy, we offer a comprehensive range of services to meet the medication needs of our patients. From filling prescriptions and providing over-the-counter medications to offering medication counseling and medication therapy management, our knowledgeable pharmacists are here to support you in achieving optimal health outcomes. We also provide specialty medications, medical supplies, and durable medical equipment to meet the unique needs of patients with chronic conditions or complex treatment regimens.",
+        "additionalServices": [
+          {
+            "icon": "FaCoffee",
+            "title": "Express Delivery Options",
+            "content": "Recognizing the urgency often associated with medical deliveries, we offer express delivery options for critical supplies. Whether it's emergency medication or life-saving equipment, our delivery team is equipped to handle expedited requests with the utmost priority."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Customized Delivery Schedules",
+            "content": "We understand that every hospital operates on its unique schedule. That's why we offer customized delivery schedules to accommodate the specific needs and preferences of each facility. Whether you require daily, weekly, or monthly deliveries, we will work with you to create a schedule that ensures uninterrupted supply."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "State-of-the-Art Tracking System",
+            "content": "With our advanced tracking system, you can monitor the status of your deliveries in real-time. From the moment an order is placed to its arrival at your facility, you'll have full visibility every step of the way, providing peace of mind and allowing for efficient planning."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Dedicated Delivery Team",
+            "content": "Our delivery team consists of trained professionals who understand the importance of their role in supporting the healthcare industry. With their expertise and commitment to excellence, you can trust that your deliveries will be handled with care and precision."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Environmental Responsibility",
+            "content": "In addition to efficiency, we are also committed to environmental responsibility. We employ eco-friendly practices in our delivery operations, such as optimizing delivery routes to reduce fuel consumption and minimizing packaging waste."
+          }
+        ]
+      },
+      "medicalTeam": {
+        "title": "Medical Team",
+        "content": "Our team of pharmacists at Jeevan Raksha Hospital is dedicated to providing expert medication management and personalized care for patients of all ages and medical conditions. With specialized training and expertise in pharmacotherapy, our pharmacists work collaboratively with patients, physicians, and other healthcare providers to ensure safe and effective medication use. Whether you have questions about your medications, need assistance managing side effects, or require help with medication adherence, our team is here to help you navigate your treatment plan with confidence and ease.",
+        "doctors": [
+          {
+            "name": "Dr. Maria Hernandez",
+            "image": "/images/doctor2.png",
+            "specialization": "Internal Medicine Specialist",
+            "linkedin": "linkedin.com/mariahernandez"
+          },
+          {
+            "name": "Dr. Robert Turner",
+            "image": "/images/doctor3.png",
+            "specialization": "Cardiologist",
+            "linkedin": "linkedin.com/turner"
+          },
+          {
+            "name": "Dr. John Smith",
+            "image": "/images/doctor4.png",
+            "specialization": "Neurosurgeon",
+            "linkedin": "linkedin.com/johnsmith"
+          },
+          {
+            "name": "Dr. Sarah Davis",
+            "image": "/images/doctor5.png",
+            "specialization": "Pediatrician",
+            "linkedin": "linkedin.com/johnsmith"
+          }
+        ]
+      },
+      "facilities": {
+        "title": "Facilities and Technology",
+        "content": "Jeevan Raksha Hospital's pharmacy is equipped with modern facilities and advanced technology to ensure efficient and accurate medication dispensing and management. Our pharmacy features a computerized prescription processing system, automated dispensing technology, and barcode scanning technology to enhance medication safety and minimize errors. We also maintain strict quality control measures and adhere to industry standards to ensure the integrity and purity of the medications we dispense.",
+        "facilitiesList": [
+          "Modern Infrastructure",
+          "Specialized Departments",
+          "Advanced Operating Theaters",
+          "Diagnostic Imaging Center",
+          "Laboratory Services"
+        ],
+        "techList": [
+          "Electronic Health Records (EHR)",
+          "Telemedicine Services",
+          "Robotic Surgery",
+          "Patient Monitoring Systems"
+        ],
+        "imageLink": "/images/pharmacy-02.jpg"
+      }
+    }
+  },
+  "orthopedics": {
+    "fatureClinic": {
+      "overview": {
+        "title": "Overview",
+        "content": "Welcome to the Delivery Speciality at Jeevan Raksha, where we provide exceptional care for mothers and newborns throughout the birthing process. Our team of experienced obstetricians, midwives, and nurses is dedicated to ensuring a safe and comfortable delivery experience for every patient.",
+        "imageLink": "/images/delivery.jpg"
+      },
+      "services": {
+        "title": "Services Offered",
+        "content": "At Jeevan Raksha, we offer a comprehensive range of delivery services tailored to meet the individual needs of expectant mothers. From prenatal care and childbirth education to labor and delivery assistance, we provide expert medical care and emotional support every step of the way. Our services include natural childbirth, water birth, and cesarean delivery, ensuring that each mother receives the appropriate care based on her preferences and medical needs.",
+        "additionalServices": [
+          {
+            "icon": "FaCoffee",
+            "title": "Express Delivery Options",
+            "content": "Recognizing the urgency often associated with medical deliveries, we offer express delivery options for critical supplies. Whether it's emergency medication or life-saving equipment, our delivery team is equipped to handle expedited requests with the utmost priority."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Customized Delivery Schedules",
+            "content": "We understand that every hospital operates on its unique schedule. That's why we offer customized delivery schedules to accommodate the specific needs and preferences of each facility. Whether you require daily, weekly, or monthly deliveries, we will work with you to create a schedule that ensures uninterrupted supply."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "State-of-the-Art Tracking System",
+            "content": "With our advanced tracking system, you can monitor the status of your deliveries in real-time. From the moment an order is placed to its arrival at your facility, you'll have full visibility every step of the way, providing peace of mind and allowing for efficient planning."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Dedicated Delivery Team",
+            "content": "Our delivery team consists of trained professionals who understand the importance of their role in supporting the healthcare industry. With their expertise and commitment to excellence, you can trust that your deliveries will be handled with care and precision."
+          },
+          {
+            "icon": "FaWpforms",
+            "title": "Environmental Responsibility",
+            "content": "In addition to efficiency, we are also committed to environmental responsibility. We employ eco-friendly practices in our delivery operations, such as optimizing delivery routes to reduce fuel consumption and minimizing packaging waste."
+          }
+        ]
+      },
+      "medicalTeam": {
+        "title": "Medical Team",
+        "content": "Our team of experienced obstetricians and gynecologists at Jeevan Raksha Hospital are dedicated to ensuring the health and well-being of both mother and baby. With years of experience and expertise in maternal-fetal medicine, our physicians provide compassionate care and guidance throughout pregnancy, labor, and delivery. Supported by skilled midwives, nurses, and support staff, our medical team is committed to delivering safe and successful outcomes for every mother and newborn.",
+        "doctors": [
+          {
+            "name": "Dr. Maria Hernandez",
+            "image": "/images/doctor2.png",
+            "specialization": "Internal Medicine Specialist",
+            "linkedin": "linkedin.com/mariahernandez"
+          },
+          {
+            "name": "Dr. Robert Turner",
+            "image": "/images/doctor3.png",
+            "specialization": "Cardiologist",
+            "linkedin": "linkedin.com/turner"
+          },
+          {
+            "name": "Dr. John Smith",
+            "image": "/images/doctor4.png",
+            "specialization": "Neurosurgeon",
+            "linkedin": "linkedin.com/johnsmith"
+          },
+          {
+            "name": "Dr. Sarah Davis",
+            "image": "/images/doctor5.png",
+            "specialization": "Pediatrician",
+            "linkedin": "linkedin.com/johnsmith"
+          }
+        ]
+      },
+      "facilities": {
+        "title": "Facilities and Technology",
+        "content": "Jeevan Raksha Hospital is equipped with state-of-the-art facilities and advanced technology to support women during labor and delivery. Our spacious and comfortable birthing suites provide a serene environment for mothers and their families, with amenities designed to enhance comfort and relaxation during childbirth. We also offer access to specialized equipment, such as fetal monitoring systems and neonatal resuscitation units, to ensure the safety and well-being of both mother and baby.",
+        "facilitiesList": [
+          "Modern Infrastructure",
+          "Specialized Departments",
+          "Advanced Operating Theaters",
+          "Diagnostic Imaging Center",
+          "Laboratory Services"
+        ],
+        "techList": [
+          "Electronic Health Records (EHR)",
+          "Telemedicine Services",
+          "Robotic Surgery",
+          "Patient Monitoring Systems"
+        ],
+        "imageLink": "/images/delivery-tech.jpg"
+      }
+    }
+  }
+}
