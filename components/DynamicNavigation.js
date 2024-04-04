@@ -8,14 +8,11 @@ const DynamicNavigation = () => {
     <ul className="dropdown df fww bg4 l0 r0 pf zi3 pr aft bef">
       {navigationData.speciality.branches.map((branch) => (
         <li key={branch.slug} className=" branch flx25">
-          <Link href={`/super-speciality-branches/${branch.slug}`}>
-            <span className="branch-name">{branch.name}</span>
-          </Link>
           <ul>
             {branch.departments.map((department) => (
               <li key={department.slug}>
                 <Link
-                  href={`/super-speciality-branches/department/${department.slug}`}
+                  href={`/super-speciality-branches/${department.slug}`}
                 >
                   <span className="department-name">{department.name}</span>
                 </Link>

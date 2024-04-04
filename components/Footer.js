@@ -117,7 +117,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link href="/super-speciality-branches/delivery" className="footer-link transit2">
                       Delivery
                     </Link>
                   </li>

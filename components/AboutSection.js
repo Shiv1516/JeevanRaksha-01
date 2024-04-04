@@ -42,7 +42,6 @@ const AboutSection = () => {
           <h2 className="v-center fs14 mb24 fc2">
             <span className="section-line"></span>About Jeevanraksha
           </h2>
-          <h3 className="mb16 fw5">The Great Place of</h3>
           <h4 className="fs36 fw6 fc1 mb24">
             Empowering Health, Enriching Lives
           </h4>
