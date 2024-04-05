@@ -1115,6 +1115,23 @@ table {
   left: 0;
   top: -15px;
 }
+.page-heading-section {
+  background-image: url(../public/images/service-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 290px;
+}
+.banner-btn{
+  bottom: 36px;
+}
+.doctor-button:hover {
+  color: #fff;
+  background-color: #5086bc;
+}
+.appoinment-button:hover {
+  background-color: #9fcef36b;
+  color: rgb(7, 45, 76);
+}
 .heroSection {
   width: 100%;
   background-color: #c7c9ce;
@@ -1365,9 +1382,6 @@ table {
 }
 .footer-logo {
   mix-blend-mode: multiply;
-}
-.page-heading-section h1 {
-  font-size: 40px;
 }
 .team-card-image {
   min-width: 200px;

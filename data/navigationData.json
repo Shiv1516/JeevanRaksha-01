@@ -8,44 +8,156 @@
         "id": 11,
         "name": "row1",
         "departments": [
-          { "id": 111, "name": "Delivery", "slug": "delivery" },
-          { "id": 112, "name": "Well Baby Clinic", "slug": "well-baby-clinic" },
-          { "id": 113, "name": "Dialysis", "slug": "dialysis" },
-          { "id": 114, "name": "Physiotherapy", "slug": "physiotherapy" },
-          { "id": 115, "name": "Pharmacy", "slug": "pharmacy" }
+          {
+            "id": 111,
+            "name": "Diabetes",
+            "slug": "diabetes",
+            "url": "diabetes-01"
+          },
+          {
+            "id": 112,
+            "name": "Hypertension",
+            "slug": "hypertension",
+            "url": "hypertension-01"
+          },
+          {
+            "id": 113,
+            "name": "Antenatal clinic",
+            "slug": "antenatalClinic",
+            "url": "antenatal-clinic-01"
+          },
+          {
+            "id": 114,
+            "name": "Chest",
+            "slug": "chest",
+            "url": "chest-01"
+          },
+          {
+            "id": 115,
+            "name": "Delivery",
+            "slug": "delivery",
+            "url": "delivery-01"
+          },
+          {
+            "id": 116,
+            "name": "Phototherapy",
+            "slug": "phototherapy",
+            "url": "phototherapy-01"
+          }
         ]
       },
       {
         "id": 12,
         "name": "row2",
         "departments": [
-          { "id": 121, "name": "Delivery", "slug": "delivery" },
-          { "id": 122, "name": "Well Baby Clinic", "slug": "well-baby-clinic" },
-          { "id": 123, "name": "Dialysis", "slug": "dialysis" },
-          { "id": 124, "name": "Physiotherapy", "slug": "physiotherapy" },
-          { "id": 125, "name": "Pharmacy", "slug": "pharmacy" }
+          {
+            "id": 121,
+            "name": "Hysterectomy",
+            "slug": "hysterectomy",
+            "url": "hysterectomy-01"
+          },
+          {
+            "id": 122,
+            "name": "Infertility clinic",
+            "slug": "infertilityClinic",
+            "url": "infertility-clinic-01"
+          },
+          {
+            "id": 123,
+            "name": "Neonatal Intensive Care Unit (NICU)",
+            "slug": "neonatalIntensiveCareUnit",
+            "url": "neonatal-intensive-care-unit-01"
+          },
+          {
+            "id": 124,
+            "name": "Medical Termination of Pregnancy (MTP)",
+            "slug": "medicalTerminationOfPregnancy",
+            "url": "medical-termination-of-pregnancy-icon-01"
+          },
+          {
+            "id": 125,
+            "name": "Cesarean section (C-section)",
+            "slug": "cesareanSection",
+            "url": "cesarean-section-01"
+          },
+          {
+            "id": 126,
+            "name": "Vaccination",
+            "slug": "vaccination",
+            "url": "vaccination-01"
+          }
         ]
       },
       {
         "id": 13,
         "name": "row3",
         "departments": [
-          { "id": 131, "name": "Delivery", "slug": "delivery" },
-          { "id": 132, "name": "Well Baby Clinic", "slug": "well-baby-clinic" },
-          { "id": 133, "name": "Dialysis", "slug": "dialysis" },
-          { "id": 134, "name": "Physiotherapy", "slug": "physiotherapy" },
-          { "id": 135, "name": "Pharmacy", "slug": "pharmacy" }
+          {
+            "id": 131,
+            "name": "Well-baby clinic",
+            "slug": "wellBabyClinic",
+            "url": "well-baby-clinic-01"
+          },
+          {
+            "id": 132,
+            "name": "Laparoscopic surgery",
+            "slug": "laparoscopicSurgery",
+            "url": "laparoscopic-surgery"
+          },
+          {
+            "id": 133,
+            "name": "General surgery",
+            "slug": "generalSurgery",
+            "url": "general-surgery"
+          },
+          {
+            "id": 134,
+            "name": "Thyroid disorders",
+            "slug": "thyroidDisorders",
+            "url": "thyroid-disorders"
+          },
+          {
+            "id": 135,
+            "name": "Cosmetic and plastic surgery",
+            "slug": "cosmeticAndPlasticSurgery",
+            "url": "cosmetic-and-plastic-surgery"
+          },
+          {
+            "id": 136,
+            "name": "Dialysis",
+            "slug": "dialysis",
+            "url": "dialysis"
+          }
         ]
       },
       {
         "id": 14,
         "name": "row4",
         "departments": [
-          { "id": 141, "name": "Delivery", "slug": "delivery" },
-          { "id": 142, "name": "Well Baby Clinic", "slug": "well-baby-clinic" },
-          { "id": 143, "name": "Dialysis", "slug": "dialysis" },
-          { "id": 144, "name": "Physiotherapy", "slug": "physiotherapy" },
-          { "id": 145, "name": "Pharmacy", "slug": "pharmacy" }
+          {
+            "id": 141,
+            "name": "Nephrology clinic",
+            "slug": "nephrologyClinic",
+            "url": "nephrology-clinic"
+          },
+          {
+            "id": 142,
+            "name": "Fistula",
+            "slug": "fistula",
+            "url": "dialysis"
+          },
+          {
+            "id": 143,
+            "name": "Permacath insertion",
+            "slug": "permacathInsertion",
+            "url": "permacath-insertion"
+          },
+          {
+            "id": 144,
+            "name": "Gastroenterology clinic",
+            "slug": "gastroenterologyClinic",
+            "url": "gastroenterology"
+          }
         ]
       }
     ]

@@ -9,6 +9,7 @@ import { FaStar } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
 import { FaWpforms, FaDotCircle } from "react-icons/fa";
+import Link from "next/link";
 
 const DynamicPage = () => {
   const router = useRouter();
@@ -56,12 +57,34 @@ const DynamicPage = () => {
         />
       </Head>
 
-      <section className="page-heading-section pt16 pb48 bg-grdnt-01">
+      <section className="page-heading-section w100 df pr">
+        <div className="banner-btn pa l0 w100">
         <div className="wrapper">
-          <h1 className="mt40 mb16 tac">{data && data.name}</h1>
-          <Breadcrumb items={breadcrumbItems} />
+          <div className="page-heading-content">
+            <h1 className="page-heading mb16 fs24 fw6 dib bg6 fc4 br4 ptb12 plr24">
+              {data && data.name}
+            </h1>
+            <div className="page-button df">
+              <Link
+                href="#"
+                className="appoinment-button bg7 ptb12 plr32 fs13 fw5 br4 mr16 transit2"
+              >
+                Book Appoinment
+              </Link>
+              <Link
+                href="#"
+                className="doctor-button bg4 ptb12 plr32 fs13 fw5 br4 transit2"
+              >
+                Find a Doctor
+              </Link>
+            </div>
+          </div>
+          </div>
         </div>
       </section>
+
+
+
 
       {departmentSections && (
         <div className="section-data">
@@ -73,7 +96,7 @@ const DynamicPage = () => {
                 key={sectionKey}
                 className={`page-sections ptb48 brd-t1 ${section.sectionalign}`}
               >
-                <div className="service-contain wrapper df">
+                <div className={`service-contain wrapper df ${section.padding}`}>
                   <article className="left-content flx1 plr48">
 
                   

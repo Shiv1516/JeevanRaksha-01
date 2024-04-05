@@ -48,12 +48,12 @@ const Footer = () => {
                 </div>
                 <ul className="footer-links-list">
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link href="/about-us" className="footer-link transit2">
                       About Us
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link href="/contact-us" className="footer-link transit2">
                       Contact
                     </Link>
                   </li>
@@ -97,117 +97,183 @@ const Footer = () => {
               <div className="df">
                 <ul className="footer-links-list flx33">
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/diabetes"
+                      className="footer-link transit2"
+                    >
                       Diabetes
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/hypertension"
+                      className="footer-link transit2"
+                    >
                       Hypertension
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/antenatalClinic"
+                      className="footer-link transit2"
+                    >
                       Antenatal clinic
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/chest"
+                      className="footer-link transit2"
+                    >
                       Chest
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/super-speciality-branches/delivery" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/delivery"
+                      className="footer-link transit2"
+                    >
                       Delivery
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/phototherapy"
+                      className="footer-link transit2"
+                    >
                       Phototherapy
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/hysterectomy"
+                      className="footer-link transit2"
+                    >
                       Hysterectomy
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/infertilityClinic"
+                      className="footer-link transit2"
+                    >
                       Infertility clinic
                     </Link>
                   </li>
                 </ul>
                 <ul className="footer-links-list flx33">
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/neonatalIntensiveCareUnit"
+                      className="footer-link transit2"
+                    >
                       Neonatal Intensive Care Unit (NICU)
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/medicalTerminationOfPregnancy"
+                      className="footer-link transit2"
+                    >
                       Medical Termination of Pregnancy (MTP)
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/cesareanSection"
+                      className="footer-link transit2"
+                    >
                       Cesarean section (C-section)
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/vaccination"
+                      className="footer-link transit2"
+                    >
                       Vaccination
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/wellBabyClinic"
+                      className="footer-link transit2"
+                    >
                       Well-baby clinic
                     </Link>
                   </li>
 
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/laparoscopicSurgery"
+                      className="footer-link transit2"
+                    >
                       Laparoscopic surgery
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/generalSurgery"
+                      className="footer-link transit2"
+                    >
                       General surgery
                     </Link>
                   </li>
                 </ul>
                 <ul className="footer-links-list flx33">
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/thyroidDisorders"
+                      className="footer-link transit2"
+                    >
                       Thyroid disorders
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/cosmeticAndPlasticSurgery"
+                      className="footer-link transit2"
+                    >
                       Cosmetic and plastic surgery
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/dialysis"
+                      className="footer-link transit2"
+                    >
                       Dialysis
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/nephrologyClinic"
+                      className="footer-link transit2"
+                    >
                       Nephrology clinic
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/fistula"
+                      className="footer-link transit2"
+                    >
                       Fistula
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/permacathInsertion"
+                      className="footer-link transit2"
+                    >
                       Permacath insertion
                     </Link>
                   </li>
                   <li className="footer-links mb16">
-                    <Link href="/" className="footer-link transit2">
+                    <Link
+                      href="/super-speciality-branches/gastroenterologyClinic"
+                      className="footer-link transit2"
+                    >
                       Gastroenterology clinic
                     </Link>
                   </li>

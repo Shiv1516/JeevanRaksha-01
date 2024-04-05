@@ -11,10 +11,15 @@ const DynamicNavigation = () => {
           <ul>
             {branch.departments.map((department) => (
               <li key={department.slug}>
-                <Link
-                  href={`/super-speciality-branches/${department.slug}`}
-                >
-                  <span className="department-name">{department.name}</span>
+                <Link href={`/super-speciality-branches/${department.slug}`}>
+                  <div className="department-list v-center lh24">
+                    <div className="mr8">
+                      <img
+                        src={`/images/service-svg-icon/${department.url}.svg`}
+                      />
+                    </div>
+                    <div className="department-name ais">{department.name}</div>
+                  </div>
                 </Link>
               </li>
             ))}
