@@ -29,14 +29,8 @@ const DynamicNavigation = () => {
         .dropdown {
           width: 94vw;
           max-width: 1280px;
-          margin: 0 auto;
         }
 
-        .branch {
-          padding: 16px 0;
-          // margin: 16px 0;
-          min-width: 200px;
-        }
 
         .branch-name {
           display: block;

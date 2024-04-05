@@ -23,8 +23,8 @@ const AppointmentForm = () => {
 
   return (
     <section className="appointment-form ">
-      <div className="wrapper br8 pt24 pb48 plr40 pr ">
-        <div className="cards-container df">
+      <div className="wrapper br8 pt24 pb48 pr ">
+        <div className="cards-container df fww">
           <div className="card-col-3 flx33 df">
             <div className="card p24 df w100 bg1 mlr12 br4">
               <div className="card-icon">
