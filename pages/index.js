@@ -25,8 +25,8 @@ export default function Home() {
       <HeroSection />
       <WhatsApp/>
 
-      <main className='main w100 ofh'>
-        {/* <AppointmentForm /> */}
+      <main className='main w100'>
+        <AppointmentForm />
         <AboutSection />
         <ServiceSection />
         <FaqSection />
