@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Super Speciality Branches",
     "slug": "super-speciality-branches",
+    "bgcolor" : "bg3",
     "branches": [
       {
         "id": 11,
@@ -49,6 +50,7 @@
       {
         "id": 12,
         "name": "row2",
+        "bgcolor" : "bg8",
         "departments": [
           {
             "id": 121,
@@ -133,6 +135,7 @@
       {
         "id": 14,
         "name": "row4",
+        "bgcolor" : "bg8",
         "departments": [
           {
             "id": 141,

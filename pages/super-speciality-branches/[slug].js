@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import React, { useState } from "react";
 import Head from "next/head";
 import navigationData from "../../data/navigationData.json";
 import sectionsData from "../../data/sectionsData.json";
@@ -10,8 +11,19 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import { HiLocationMarker } from "react-icons/hi";
 import { FaWpforms, FaDotCircle } from "react-icons/fa";
 import Link from "next/link";
+import FindDoctorForm from "@/components/FindDoctorForm";
 
 const DynamicPage = () => {
+    const [isPopupOpenM, setIsPopupOpenM] = useState(false);
+  
+    const openPopupM = () => {
+      setIsPopupOpenM(true);
+    };
+  
+    const closePopupM = () => {
+      setIsPopupOpenM(false);
+    };
+
   const router = useRouter();
   const { slug } = router.query;
 
@@ -56,7 +68,7 @@ const DynamicPage = () => {
           content={`Keywords for ${data ? data.name : "Dynamic Page"}`}
         />
       </Head>
-
+      <FindDoctorForm isOpen={isPopupOpenM} onClose={closePopupM} />
       <section className="page-heading-section w100 df pr">
         <div className="banner-btn pa l0 w100">
         <div className="wrapper">
@@ -65,7 +77,8 @@ const DynamicPage = () => {
               {data && data.name}
             </h1>
             <div className="page-button df">
-              <Link
+              <Link 
+              onClick={openPopupM}
                 href="#"
                 className="appoinment-button bg7 ptb12 plr32 fs13 fw5 br4 mr16 transit2"
               >
@@ -107,20 +120,20 @@ const DynamicPage = () => {
             
         <div className="service-heading mb48 mt48 flx100 v-center fdc tac">
         <h3 className="sub-heading fs15 fc4 p8 br4 fw5 mb16 bg1">{section.title}</h3>
-        <h2 className="heading fs36 fw6 mb16">{section.subheading}</h2>
-        <p className="heading-desc lh30 w70">
+        <h2 className="heading fs36 fw6 mb16 lh48">{section.subheading}</h2>
+        <p className="heading-desc lh26 fc3 w70">
         {section.content}
         </p>
       </div>
       ) : (
         <div className="inner-heading">
         <h2 className="v-center fs14 mb24 fc2">
-            <span className="section-line"></span>{section.title}
+            <span className="section-line lh48"></span>{section.title}
           </h2>
           <h4 className="fs36 fw6 fc1 mb24">
             {section.subheading}
           </h4>
-          <p className="lh24">
+          <p className="lh26 fc3">
           {section.content}
           </p>
           </div>
@@ -157,13 +170,13 @@ const DynamicPage = () => {
                   <img src={doctor.image} alt={doctor.name} className="w100" />
                   <ul className="doctor-social-media v-center pa">
                     <li className="box-center h40 w40 br50 bg4 brd1">
-                      <a
+                      <Link
                         href={doctor.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <FaLinkedinIn className="fc1" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -195,16 +208,17 @@ const DynamicPage = () => {
         </div>
                     )}
                     {!section.doctors && section.additionalServices && (
-                      <div className="additional-services mt48 df fww jcsb ">
+                      <div className="additional-services mt48 df fww ">
                         {section.additionalServices.map((service, index) => (
                           <div
                             key={index}
-                            className="additional-service flx24 p12 brd1 mb24 br8"
-                          >
-                            <div className="how-card-icon box-center h64 w64 br50 bg1">
-                              <img src={`/images/${service.icon}.jpg`} alt="" className="h48 w48 br24" />
+                            className="additional-service flx31 p16 bs4 mb24 br8 bg4 mlr12"
+                          ><div className="v-center mb24">
+                            <div className="how-card-icon box-center h64 w64 br50 bg1 df">
+                              <img src={`/images/svg-icon/${service.icon}.svg`} alt="" className="h48 w48 br24" />
                             </div>
-                            <p className="fs15 fw6 ls1 mt24">{service.title}</p>
+                            <h3 className="fs17 fw6 ls1 ml16 lh22">{service.title}</h3>
+                            </div>
                             <p className="fs14 mt12 lh24 fc3">
                               {service.content}
                             </p>

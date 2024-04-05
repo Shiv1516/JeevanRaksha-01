@@ -46,7 +46,7 @@ const AppointmentForm = () => {
                   </p>
                 </div>
                 <Link href="#" className="v-center fw5 fc4 fs24">
-                <MdCall size={30} className="mr8"/>
+                  <MdCall size={30} className="mr8" />
                   +91 1234567890
                 </Link>
               </div>
@@ -71,7 +71,7 @@ const AppointmentForm = () => {
                     healthcare effortlessly. Your wellness is our priority.
                   </p>
                 </div>
-                <button class="lm-btn box-center h48 br2 plr24 bg2 fc4">
+                <button className="lm-btn box-center h48 br2 plr24 bg2 fc4">
                   Book Now
                 </button>
               </div>
@@ -87,18 +87,26 @@ const AppointmentForm = () => {
                   <h3 className="fs24 fw6 fc4 lh24">Opening Hours</h3>
                 </div>
                 <div className="card-details mb24">
-                  <ul class="pt-list-info fc5">
+                  <ul className="pt-list-info fc5">
                     <li className="df jcsb pb8 mb8 lh34 brd-b3">
-                      <div class="pt-info-hours-title">Monday - Friday </div>
-                      <div class="pt-info-hours-content">8:00 - 7:00 PM </div>
+                      <div className="pt-info-hours-title">
+                        Monday - Friday{" "}
+                      </div>
+                      <div className="pt-info-hours-content">
+                        8:00 - 7:00 PM{" "}
+                      </div>
                     </li>
                     <li className="df jcsb pb8 mb8 lh34 brd-b3">
-                      <div class="pt-info-hours-title">Saturday </div>
-                      <div class="pt-info-hours-content">6:00 - 5:00 PM </div>
+                      <div className="pt-info-hours-title">Saturday </div>
+                      <div className="pt-info-hours-content">
+                        6:00 - 5:00 PM{" "}
+                      </div>
                     </li>
                     <li className="df jcsb pb8 mb8 lh34 brd-b3">
-                      <div class="pt-info-hours-title">Sunday </div>
-                      <div class="pt-info-hours-content">9:00 - 4:00 PM </div>
+                      <div className="pt-info-hours-title">Sunday </div>
+                      <div className="pt-info-hours-content">
+                        9:00 - 4:00 PM{" "}
+                      </div>
                     </li>
                   </ul>
                 </div>

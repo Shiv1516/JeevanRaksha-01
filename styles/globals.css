@@ -84,6 +84,7 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   color: #031422;
+  margin-top: 112px;
 }
 
 /* Reset Lists */
@@ -344,8 +345,16 @@ table {
 .bg6 {
   background-color: #176abc;
 }
-.bg7 {
-  background-color: #e1f2ff6b;
+.bg7,
+.bg-h7:hover {
+  background-color: rgba(224, 242, 255, 0.3);
+}
+.bg8 {
+  background-color: #f4f4f491;
+}
+.bg9,
+.bg-h9:hover {
+  background-color: rgba(214, 236, 251, 0.41);
 }
 .bg-grdnt-01 {
   background-image: linear-gradient(
@@ -458,6 +467,9 @@ table {
 .lh24 {
   line-height: 24px;
 }
+.lh26 {
+  line-height: 26px;
+}
 .lh30 {
   line-height: 30px;
 }
@@ -566,6 +578,9 @@ table {
 .zi3 {
   z-index: 3;
 }
+.zi96 {
+  z-index: 96;
+}
 .zi99 {
   z-index: 99;
 }
@@ -595,7 +610,8 @@ table {
   margin: 32px;
 }
 
-.mt4 {
+.mt4,
+.mtb4 {
   margin-top: 4px;
 }
 .mt8,
@@ -696,7 +712,8 @@ table {
   margin-right: 48px;
 }
 
-.mb4 {
+.mb4,
+.mtb4 {
   margin-bottom: 4px;
 }
 .mb8,
@@ -928,6 +945,9 @@ table {
 .bs3 {
   box-shadow: rgb(203 208 214 / 90%) 0px 2px 8px 0px;
 }
+.bs4 {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
 .aft:after,
 .bef:before {
   content: "";
@@ -1107,8 +1127,11 @@ table {
 }
 .dropdown {
   border-top: 4px solid #161fc1;
+  top: 112px;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-.dropdown::before {
+.dropdown:before {
   width: 100%;
   height: 16px;
   background-color: transparent;
@@ -1121,7 +1144,7 @@ table {
   background-repeat: no-repeat;
   min-height: 290px;
 }
-.banner-btn{
+.banner-btn {
   bottom: 36px;
 }
 .doctor-button:hover {
@@ -1250,6 +1273,10 @@ table {
   padding: 8px;
   border-radius: 4px;
   margin-top: -24px;
+}
+.how-card-icon {
+  min-width: 64px;
+  min-height: 64px;
 }
 .faq-img {
   transform: translateX(-96px);
@@ -1395,6 +1422,68 @@ table {
 .team-card-image:hover .doctor-social-media {
   display: flex;
 }
+.whatsapp-sticky {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 8;
+}
+.whatsapp-sticky img {
+  width: 55px;
+  height: auto;
+}
+.membership-form {
+  display: none;
+  z-index: 9999;
+}
+.open-m-form.membership-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.open-d-form.donate-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.88);
+}
+.m-form {
+  width: 96%;
+  max-width: 550px;
+  min-height: 400px;
+  max-height: 96vh;
+  overflow-y: auto;
+}
+.m-form label:not(.v-center) {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+.m-form input:not(.checkbox-m-form) {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  padding: 0 24px;
+}
+.m-form textarea {
+  height: 80px;
+  resize: none;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  padding: 0 24px;
+}
+.m-form select {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  padding: 0 8px;
+  font-size: 14px;
+  color: #4d4b4b;
+}
 
 @media only screen and (max-width: 1024px) {
   .heroSection,
@@ -1495,6 +1584,19 @@ table {
     height: 32vh;
     min-height: 420px;
   }
+  .heroSection .slick-prev:before, .heroSection .slick-next:before {
+    font-size: 20px;
+    color: #2c2d3f;
+}
+.slider-item{
+  display: flex;
+}
+.slider-item img {
+  width: auto;
+}
+.slide-content{
+  padding: 0 32px;
+}
   .appointment-form {
     margin-top: -40px;
   }
@@ -1525,7 +1627,7 @@ table {
     margin-left: 0;
     margin-bottom: 24px;
   }
-  .heading-desc{
+  .heading-desc {
     width: 80%;
   }
 
@@ -1662,6 +1764,7 @@ table {
 }
 
 @media only screen and (max-width: 768px) {
+ 
   .fs38,
   .fs36 {
     font-size: 28px;
@@ -1684,7 +1787,7 @@ table {
   .appointment-form .wrapper {
     padding-bottom: 32px;
   }
- 
+
   .form-section .faq-image {
     padding-left: 32px;
     padding-right: 32px;
@@ -1711,6 +1814,12 @@ table {
   }
 }
 @media only screen and (max-width: 540px) {
+  body{
+    margin-top: 66px;
+  }
+  .heroSection .slick-dots {
+    bottom: 40px;
+}
   .fs18 {
     font-size: 16px;
   }
@@ -1775,7 +1884,7 @@ table {
   .form-section .submit-btn {
     width: 100%;
   }
-  .heading-desc{
+  .heading-desc {
     width: 100%;
   }
   .service-faq,
@@ -1791,6 +1900,10 @@ table {
   }
   .footer-bottom p {
     font-size: 10px;
+  }
+  .how-card {
+    margin: 0px;
+    padding: 0px;
   }
 }
 /* footer end  */

@@ -27,14 +27,14 @@ const Footer = () => {
             <div className="newsletter-form mb24 flx3">
               <form action="#" className="df">
                 <input
-                  class="name-input h48 plr12 w60 br4"
+                  className="name-input h48 plr12 w60 br4"
                   type="email"
                   placeholder="Enter your email for news"
                   required=""
                 />
                 <input
                   type="submit"
-                  class="newsletter-btn box-center ml12 h48 br4 plr24 cp bg2 fc4"
+                  className="newsletter-btn box-center ml12 h48 br4 plr24 cp bg2 fc4"
                   value="Subscribe"
                 ></input>
               </form>
@@ -284,14 +284,14 @@ const Footer = () => {
         </div>
       </footer>
       <footer className="footer-bottom bg6">
-        <div class="wrapper pb4 ptb16 v-center jcsb">
-          <div class="copyright">
-            <p class="fc4 fw4 fs14 v-center">
+        <div className="wrapper pb4 ptb16 v-center jcsb">
+          <div className="copyright">
+            <p className="fc4 fw4 fs14 v-center">
               Copyright © 2024
-              <Link class="plr4 fw6" href="/">
+              <Link className="plr4 fw6" href="/">
                 Jeevan Raksha
               </Link>
-              || All Rights Reserved. Powered by{" "}
+              || All Rights Reserved. Powered by
               <Link
                 target="_blank"
                 href="https://aajux.com/"
@@ -301,30 +301,30 @@ const Footer = () => {
               </Link>
             </p>
           </div>
-          <div class="footer-social">
-            <ul class="footer-social-list v-center jcc">
-              <li class="fsl mlr12">
-                <Link class="fsl-link transit2 fb" href="/#">
+          <div className="footer-social">
+            <ul className="footer-social-list v-center jcc">
+              <li className="fsl mlr12">
+                <Link className="fsl-link transit2 fb" target="_blank" href="https://www.facebook.com/">
                   <FaFacebookF className="fs20 fc4" />
                 </Link>
               </li>
-              <li class="fsl mlr12">
-                <Link class="fsl-link transit2 twitter" href="/#">
+              <li className="fsl mlr12">
+                <Link className="fsl-link transit2 twitter" target="_blank" href="https://twitter.com/">
                   <FaXTwitter className="fs20 fc4" />
                 </Link>
               </li>
-              <li class="fsl mlr12">
-                <Link class="fsl-link transit2 linkedin" href="/#">
+              <li className="fsl mlr12">
+                <Link className="fsl-link transit2 linkedin" target="_blank" href="https://www.linkedin.com/">
                   <FaLinkedinIn className="fs20 fc4" />
                 </Link>
               </li>
-              <li class="fsl mlr12">
-                <Link class="fsl-link transit2 instagram" href="/#">
+              <li className="fsl mlr12">
+                <Link className="fsl-link transit2 instagram" target="_blank" href="https://www.instagram.com/">
                   <FaInstagram className="fs20 fc4" />
                 </Link>
               </li>
-              <li class="fsl ml12">
-                <Link class="fsl-link transit2 youtube" href="/#">
+              <li className="fsl ml12">
+                <Link className="fsl-link transit2 youtube" target="_blank" href="https://www.youtube.com/">
                   <FaYoutube className="fs20 fc4" />
                 </Link>
               </li>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import doctorsData from "../data/doctorteams";
@@ -32,13 +33,13 @@ const DoctorTeam = () => {
                   <img src={doctor.image} alt={doctor.name} className="w100" />
                   <ul className="doctor-social-media v-center pa">
                     <li className="box-center h40 w40 br50 bg4 brd1">
-                      <a
+                      <Link
                         href={doctor.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <FaLinkedinIn className="fc1" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
