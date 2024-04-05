@@ -47,7 +47,7 @@ const AppointmentForm = () => {
                 </div>
                 <Link href="#" className="v-center fw5 fc4 fs24">
                   <MdCall size={30} className="mr8" />
-                  +91 1234567890
+                  +91 7679856232
                 </Link>
               </div>
             </div>
