@@ -1,22 +1,25 @@
 import React, { useState } from "react";
 import { ImCross } from "react-icons/im";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const FindDoctorForm = ({ isOpen, onClose }) => {
   const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [membershipType, setMembershipType] = useState("");
-  const [donationAmount, setDonationAmount] = useState("");
+  const [disease, setdisease] = useState("");
   const [volunteerInterests, setVolunteerInterests] = useState([]);
+  // const [appointmentDate, setAppointmentDate] = useState(new Date());
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log({
       fullName,
-      email,
       phoneNumber,
       membershipType,
-      donationAmount,
+      disease,
       volunteerInterests,
+      // appointmentDate,
     });
 
     resetForm();
@@ -24,11 +27,11 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
 
   const resetForm = () => {
     setFullName("");
-    setEmail("");
     setPhoneNumber("");
     setMembershipType("");
-    setDonationAmount("");
+    setdisease("");
     setVolunteerInterests([]);
+    // setAppointmentDate(new Date());
   };
 
   return (
@@ -54,15 +57,6 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
           required
         />
 
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-
         <label htmlFor="phoneNumber">Phone Number:</label>
         <input
           type="tel"
@@ -72,14 +66,27 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
           required
         />
 
-        <label htmlFor="donationAmount">Disease</label>
+        <label htmlFor="disease">Disease</label>
         <input
           type="text"
-          id="donationAmount"
-          value={donationAmount}
-          onChange={(e) => setDonationAmount(e.target.value)}
+          id="disease"
+          value={disease}
+          onChange={(e) => setdisease(e.target.value)}
           required
         />
+
+        {/* <label htmlFor="appointmentDate">Appointment Date:</label>
+        <DatePicker
+          id="appointmentDate"
+          selected={appointmentDate}
+          onChange={(date) => setAppointmentDate(date)}
+          showTimeSelect
+          timeFormat="HH:mm"
+          timeIntervals={15}
+          timeCaption="Time"
+          dateFormat="MMMM d, yyyy h:mm aa"
+          required
+        /> */}
 
         <div className="popup-submit df jcc">
           <button

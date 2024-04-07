@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { IoCheckmarkDoneCircle } from "react-icons/io5";
+import Link from "next/link";
 
 const AboutSection = () => {
   const [showVideo, setShowVideo] = useState(false);
@@ -74,7 +75,7 @@ const AboutSection = () => {
                 color="#1a76d1"
                 className="mr4"
               />
-              Pharmacy on Clinic
+              Pharmacy on Hospital
             </li>
             <li className="key-item v-center flx48 mb16">
               <IoCheckmarkDoneCircle
@@ -93,9 +94,14 @@ const AboutSection = () => {
               24/7 Medical Emergency
             </li>
           </ul>
-          <button className="lm-btn box-center mt24 h48 br4 plr24 bg2 fc4">
+          <div className="about-im-btn dib">
+          <Link
+            href="/about-us"
+            className="lm-btn box-center mt24 h48 br4 plr24 bg2 fc4"
+          >
             Read More
-          </button>
+          </Link>
+          </div>
         </div>
       </div>
     </section>

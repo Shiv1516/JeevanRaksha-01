@@ -5,7 +5,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Link from "next/link";
 
 const ServiceCard = ({ service }) => {
-  const { name, description, icon, image } = service;
+  const { name, description, icon, image, serviceUrl } = service;
 
   return (
     <div className="service-card">
@@ -15,10 +15,13 @@ const ServiceCard = ({ service }) => {
       <div className="service-card-content plr16 ptb24">
         <h3 className="fs20 fw6 mb16">{name}</h3>
         <p className="fs15 lh24 fc3 mb24">{description}</p>
-        <Link href="#" className="fs15 fc1 dif aic bg4 mt16 mb24 cp">
+        <Link
+          href={`${serviceUrl}`}
+          className="fs15 fc1 dif aic bg4 mt16 mb24 cp"
+        >
           <span className="v-center">
-          Read More
-            <MdOutlineArrowRightAlt size={24} className='ml8' />
+            Explore More
+            <MdOutlineArrowRightAlt size={24} className="ml8" />
           </span>
         </Link>
       </div>

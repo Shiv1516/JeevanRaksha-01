@@ -29,17 +29,7 @@ const ContactUs = () => {
                   required
                 />
               </div>
-              <div className="email-fild df fdc w50 plr12 mb24">
-                <label className="input-label fw5 mb8" htmlFor="email">
-                  Email
-                </label>
-                <input
-                  className="email-input h48 plr12 w100 br4"
-                  type="email"
-                  placeholder="Your Email..."
-                  required
-                />
-              </div>
+
               <div className="phone-fild df fdc w50 plr12 mb24">
                 <label className="input-label fw5 mb8" htmlFor="phone">
                   Phone No.
@@ -48,6 +38,17 @@ const ContactUs = () => {
                   className="phone-input h48 plr12 w100 br4"
                   type="number"
                   placeholder="Your Phone no..."
+                  required
+                />
+              </div>
+              <div className="disease-fild df fdc w50 plr12 mb24">
+                <label className="input-label fw5 mb8" htmlFor="disease">
+                  Disease
+                </label>
+                <input
+                  className="disease-input h48 plr12 w100 br4"
+                  type="text"
+                  placeholder="Your Disease..."
                   required
                 />
               </div>
@@ -80,7 +81,7 @@ const ContactUs = () => {
               </div>
               <input
                 type="submit"
-                value="Read More"
+                value="Submit"
                 className="lm-btn box-center mt32 ml12 h48 br4 plr24 cp bg2 fc4"
               />
             </form>

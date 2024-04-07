@@ -39,15 +39,13 @@ const AppointmentForm = () => {
                 </div>
                 <div className="card-details mb24">
                   <p className="fc5 lh24">
-                    In urgent situations, every second counts. Our emergency
-                    services ensure swift response and expert care. Trust us to
-                    be there when you need us most, providing immediate
-                    assistance and support.
+                    Urgent situations demand swift response. Trust our emergency
+                    services for immediate expert care and support.
                   </p>
                 </div>
                 <Link href="#" className="v-center fw5 fc4 fs24">
                   <MdCall size={30} className="mr8" />
-                  +91 7679856232
+                  +91 7678356232
                 </Link>
               </div>
             </div>
@@ -66,14 +64,18 @@ const AppointmentForm = () => {
                 </div>
                 <div className="card-details mb24">
                   <p className="fc5 lh24">
-                    Need to book a doctor? Our platform simplifies the process.
-                    Find a specialist, schedule appointments, and manage your
-                    healthcare effortlessly. Your wellness is our priority.
+                    Easily book doctors, find specialists, and manage
+                    appointments for seamless healthcare access.
                   </p>
                 </div>
-                <button className="lm-btn box-center h48 br2 plr24 bg2 fc4">
-                  Book Now
-                </button>
+                <div className="book-now-btn dib">
+                  <Link
+                    href="/contact-us"
+                    className="lm-btn box-center h48 br2 plr24 bg2 fc4  "
+                  >
+                    Book Now
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -84,31 +86,15 @@ const AppointmentForm = () => {
               </div>
               <div className="card-text pl16 w100">
                 <div className="card-heading mb12">
-                  <h3 className="fs24 fw6 fc4 lh24">Opening Hours</h3>
+                  <h3 className="fs24 fw6 fc4 lh24">Medical Counseling</h3>
                 </div>
                 <div className="card-details mb24">
-                  <ul className="pt-list-info fc5">
-                    <li className="df jcsb pb8 mb8 lh34 brd-b3">
-                      <div className="pt-info-hours-title">
-                        Monday - Friday{" "}
-                      </div>
-                      <div className="pt-info-hours-content">
-                        8:00 - 7:00 PM{" "}
-                      </div>
-                    </li>
-                    <li className="df jcsb pb8 mb8 lh34 brd-b3">
-                      <div className="pt-info-hours-title">Saturday </div>
-                      <div className="pt-info-hours-content">
-                        6:00 - 5:00 PM{" "}
-                      </div>
-                    </li>
-                    <li className="df jcsb pb8 mb8 lh34 brd-b3">
-                      <div className="pt-info-hours-title">Sunday </div>
-                      <div className="pt-info-hours-content">
-                        9:00 - 4:00 PM{" "}
-                      </div>
-                    </li>
-                  </ul>
+                  <p className="fc5 lh24">
+                    Professional guidance and support for addressing
+                    health-related concerns, managing conditions, and improving
+                    overall well-being through personalized advice and
+                    counseling sessions.
+                  </p>
                 </div>
               </div>
             </div>

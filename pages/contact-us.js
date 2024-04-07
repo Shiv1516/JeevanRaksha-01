@@ -61,8 +61,8 @@ export default function Home() {
                       <div className="card-heading df fdc fww flx1">
                         <h3 className="fs24 fw6 lh34">Head Office</h3>
                         <p className="card-text fw5 lh30 fc6">
-                          Jln Cempaka Wangi No 22, <br />
-                          Jakarta - Indonesia
+                          Pocket 8A, Plot No.8, near sbi bank, Sector 15,
+                          Rohini, New Delhi, Delhi, 110085
                         </p>
                       </div>
                     </div>
@@ -75,7 +75,7 @@ export default function Home() {
                       <div className="card-heading df fdc fww flx1">
                         <h3 className="fs24 fw6 lh34">Call Us</h3>
                         <p className="card-text fw5 lh30 fc6">
-                          Phone : +91 - 7679856232 <br />
+                          Phone : +91 - 7678356232 <br />
                           Fax : 011 - 35673235
                         </p>
                       </div>
@@ -133,16 +133,7 @@ export default function Home() {
                         placeholder="Name"
                       />
                     </div>
-                    <div className="input-column df fww flx50 mb16">
-                      <label className="fw5 mb8 ml84 pl4" for="">
-                        Email
-                      </label>
-                      <input
-                        className=" w100 pl12 db h48 br8 brd1 mlr4"
-                        type="text"
-                        placeholder="Email Address"
-                      />
-                    </div>
+
                     <div className="input-column df fww flx50 mb16">
                       <label className="fw5 mb8 ml84 pl4" for="">
                         Phone
@@ -156,12 +147,22 @@ export default function Home() {
                     </div>
                     <div className="input-column df fww flx50 mb16">
                       <label className="fw5 mb8 ml84 pl4" for="">
-                        Subject
+                        Disease
+                      </label>
+                      <input
+                        className=" w100 pl12 db h48 br8 brd1 mlr4"
+                        type="text"
+                        placeholder="Disease"
+                      />
+                    </div>
+                    <div className="input-column df fww flx50 mb16">
+                      <label className="fw5 mb8 ml84 pl4" for="">
+                        Doctor Name
                       </label>
                       <input
                         className="w100 pl12 db h48 br8 brd1 mlr4"
-                        type="email"
-                        placeholder="Subject"
+                        type="text"
+                        placeholder="Doctor Name..."
                       />
                     </div>
                     <div className="df fww flx100 pr8">

@@ -16,8 +16,7 @@ const MedicalEmergency = () => {
           <p className="lh24 mb24">
             In our Emergency Room, we prioritize easy and prompt access to
             highly skilled medical professionals, including top-tier trauma
-            surgeons in India who excel in performing state-of-the-art
-            procedures.
+            surgeons who excel in performing state-of-the-art procedures.
           </p>
           <ul className="about-key-points v-center fww mb24">
             <li className="key-item v-center flx100 mb16">
@@ -34,7 +33,7 @@ const MedicalEmergency = () => {
                 color="#1a76d1"
                 className="mr4"
               />
-              24 Hours Oncall Facilities
+              Rapid Response
             </li>
             <li className="key-item v-center flx100 mb16">
               <IoCheckmarkDoneCircle
@@ -42,7 +41,7 @@ const MedicalEmergency = () => {
                 color="#1a76d1"
                 className="mr4"
               />
-              Emergency Contact Number
+              Emergency Help Line
             </li>
           </ul>
           <div className="hepline-cta v-center">
@@ -52,7 +51,7 @@ const MedicalEmergency = () => {
               </div>
               <div className="help-btn-text fc2 fs15 fw6">
                 <span className="fs12 fw4 fc3 db mb4">Phone Number</span>
-                +91 7679856232
+                +91 7678356232
               </div>
             </div>
             <div className="email-help-btn box-center mr16 ptb8 br4 plr12 bg4 fc4 brd1">
