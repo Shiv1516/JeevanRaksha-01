@@ -83,7 +83,7 @@ const AboutSection = () => {
                 color="#1a76d1"
                 className="mr4"
               />
-              Ambulance Service
+              Family-Centered Care
             </li>
             <li className="key-item v-center flx48 mb16">
               <IoCheckmarkDoneCircle
@@ -95,12 +95,12 @@ const AboutSection = () => {
             </li>
           </ul>
           <div className="about-im-btn dib">
-          <Link
-            href="/about-us"
-            className="lm-btn box-center mt24 h48 br4 plr24 bg2 fc4"
-          >
-            Read More
-          </Link>
+            <Link
+              href="/about-us"
+              className="lm-btn box-center mt24 h48 br4 plr24 bg2 fc4"
+            >
+              Read More
+            </Link>
           </div>
         </div>
       </div>

@@ -33,8 +33,7 @@ const Header = () => {
           </Link>
           <Navbar />
           <div onClick={openPopupM} className='nav-cta box-center fw5 br2 plr24 h48 fc4 cp bg1 bg-h1 ml32'>
-            <Link  href='contact-us'>Book Appointment</Link>
-            
+            Book Appointment
           </div>
         </div>
       </div>

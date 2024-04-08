@@ -9,7 +9,8 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
   const [membershipType, setMembershipType] = useState("");
   const [disease, setdisease] = useState("");
   const [volunteerInterests, setVolunteerInterests] = useState([]);
-  // const [appointmentDate, setAppointmentDate] = useState(new Date());
+  const [additionalInfo, setAdditionalInfo] = useState("");
+  const [appointmentDate, setAppointmentDate] = useState(new Date());
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -19,7 +20,8 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
       membershipType,
       disease,
       volunteerInterests,
-      // appointmentDate,
+      additionalInfo,
+      appointmentDate
     });
 
     resetForm();
@@ -31,7 +33,8 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
     setMembershipType("");
     setdisease("");
     setVolunteerInterests([]);
-    // setAppointmentDate(new Date());
+    setAdditionalInfo("");
+    setAppointmentDate(new Date());
   };
 
   return (
@@ -66,7 +69,7 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
           required
         />
 
-        <label htmlFor="disease">Disease</label>
+        <label htmlFor="disease">Disease:</label>
         <input
           type="text"
           id="disease"
@@ -75,7 +78,17 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
           required
         />
 
-        {/* <label htmlFor="appointmentDate">Appointment Date:</label>
+        <label htmlFor="additionalInfo">Additional Information:</label>
+        <textarea
+        className="w100"
+          id="additionalInfo"
+          value={additionalInfo}
+          onChange={(e) => setAdditionalInfo(e.target.value)}
+          rows="4"
+          required
+        ></textarea>
+
+        <label htmlFor="appointmentDate">Appointment Date:</label>
         <DatePicker
           id="appointmentDate"
           selected={appointmentDate}
@@ -86,15 +99,22 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
           timeCaption="Time"
           dateFormat="MMMM d, yyyy h:mm aa"
           required
-        /> */}
+        />
 
-        <div className="popup-submit df jcc">
+        <div className="popup-submit df ">
           <button
             type="submit"
             onClick={onClose}
-            className="transit2 h48 box-center br8 bg5 fc1 p24 fw7 mt24"
+            className="submit-btn transit2 h48 box-center br8 bg1 fc4 ptb24 plr48 fw7 mt24 cp mr32"
           >
             Submit
+          </button>
+          <button
+            type="reset"
+            onClick={resetForm}
+            className="reset-btn transit2 h48 box-center br8 bg5 fc1 ptb24 plr48 fw7 mt24 cp"
+          >
+            Reset
           </button>
         </div>
       </form>

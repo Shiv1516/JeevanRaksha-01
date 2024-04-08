@@ -78,7 +78,7 @@ const ServiceSection = () => {
           ))}
         </Slider>
       </div>
-    </section>
+    </section>  
   );
 };
 

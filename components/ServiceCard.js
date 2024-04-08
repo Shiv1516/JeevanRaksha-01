@@ -14,7 +14,7 @@ const ServiceCard = ({ service }) => {
       </div>
       <div className="service-card-content plr16 ptb24">
         <h3 className="fs20 fw6 mb16">{name}</h3>
-        <p className="fs15 lh24 fc3 mb24">{description}</p>
+        <p className="fs15 lh24 fc3 mb24 text-row lc3">{description}</p>
         <Link
           href={`${serviceUrl}`}
           className="fs15 fc1 dif aic bg4 mt16 mb24 cp"

@@ -198,7 +198,7 @@ const DynamicPage = () => {
                     <HiLocationMarker className="mr8 fc1 fs20" />
                     {doctor.location}
                   </li>
-                  <li className="doctor-appoinment bg5 fc1 fs16 fw5 p12 br4 cp fc-h4 bg-h1 box-center transit2">
+                  <li onClick={openPopupM} className="doctor-appoinment bg5 fc1 fs16 fw5 p12 br4 cp fc-h4 bg-h1 box-center transit2">
                     Book an Appoinment
                   </li>
                 </ul>

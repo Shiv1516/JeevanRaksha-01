@@ -8,12 +8,17 @@ const Navbar = () => {
   const [isServicesHovered, setIsServicesHovered] = useState(false);
 
   const toggleNavbar = () => {
-    setIsNavbarOpen(prevState => !prevState);
+    setIsNavbarOpen((prevState) => !prevState);
   };
 
   return (
     <>
-      <div className={`menu-btn w48 h48 cp box-center fdc ml32 p8 ${isNavbarOpen ? "nav-close" : ""}`} onClick={toggleNavbar}>
+      <div
+        className={`menu-btn w48 h48 cp box-center fdc ml32 p8 ${
+          isNavbarOpen ? "nav-close" : ""
+        }`}
+        onClick={toggleNavbar}
+      >
         <span className="menu-line"></span>
         <span className="menu-line"></span>
         <span className="menu-line"></span>
@@ -31,7 +36,7 @@ const Navbar = () => {
               <IoIosArrowDown size={18} className="fc2 ml4 mt4" />
             </Link>
             {isServicesHovered && <DynamicNavigation />}
-            {isNavbarOpen && !isServicesHovered && <DynamicNavigation />} {/* yahan par condition lagaiye */}
+            {isNavbarOpen && !isServicesHovered && <DynamicNavigation />}
           </li>
           <li className="nav-item fw4 transit2 fs16 p16 mlr4 fc-h1">
             <Link href="/about-us">About Us</Link>

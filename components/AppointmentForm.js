@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { MdCall } from "react-icons/md";
+import FindDoctorForm from "@/components/FindDoctorForm";
 
 const AppointmentForm = () => {
   const [formData, setFormData] = useState({
@@ -9,7 +10,15 @@ const AppointmentForm = () => {
     department: "",
     time: "",
   });
+  const [isPopupOpenM, setIsPopupOpenM] = useState(false);
+  
+  const openPopupM = () => {
+    setIsPopupOpenM(true);
+  };
 
+  const closePopupM = () => {
+    setIsPopupOpenM(false);
+  };
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -22,6 +31,7 @@ const AppointmentForm = () => {
   };
 
   return (
+    <><FindDoctorForm isOpen={isPopupOpenM} onClose={closePopupM} />
     <section className="appointment-form ">
       <div className="wrapper br8 pt24 pb48 pr ">
         <div className="cards-container df fww">
@@ -68,13 +78,12 @@ const AppointmentForm = () => {
                     appointments for seamless healthcare access.
                   </p>
                 </div>
-                <div className="book-now-btn dib">
-                  <Link
-                    href="/contact-us"
+                <div className="book-now-btn dib cp">
+                  <div onClick={openPopupM}
                     className="lm-btn box-center h48 br2 plr24 bg2 fc4  "
                   >
                     Book Now
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,6 +111,7 @@ const AppointmentForm = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

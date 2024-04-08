@@ -43,7 +43,7 @@ export default function Home() {
           <div className="get-in-touch df mb48 ">
             <div className="get-in-touch-heading flx60">
               <div className="section-container mr48">
-                <h2 className="section-heading fs36 lh58 fw ff2 mr48 pt8">
+                <h2 className="section-heading fs36 lh58 fw6 ff2 mr48 pt8">
                   Reach Out to Us
                 </h2>
                 <p className="section-text fs16 fw4 lh30 fc3 mt16 pb32 pr40 flx1 pr aft btm-line">

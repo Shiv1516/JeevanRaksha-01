@@ -10,8 +10,11 @@
   transition: background-color 0.3s ease;
 }
 
+.faq-item {
+  background-color: #f9fdffbe;
+}
 .faq-item:hover {
-  background-color: #f9fdff;
+  background-color: #fbfeff;
 }
 
 .question {

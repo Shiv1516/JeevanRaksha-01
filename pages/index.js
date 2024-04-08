@@ -23,7 +23,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroSection />
-      <WhatsApp />
 
       <AppointmentForm />
       <main className="main w100 ofh">
