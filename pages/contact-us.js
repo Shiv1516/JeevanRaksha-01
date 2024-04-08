@@ -47,11 +47,8 @@ export default function Home() {
                   Reach Out to Us
                 </h2>
                 <p className="section-text fs16 fw4 lh30 fc3 mt16 pb32 pr40 flx1 pr aft btm-line">
-                  Proin molestie pulvinar dictumst quisque habitant posuere
-                  interdum eros hendrerit porta mi. Lobortis leo potenti iaculis
-                  purus nulla.
+                Questions? Concerns? Need to schedule an appointment? Contact us today! Our compassionate team is here to provide prompt assistance tailored to your needs. Reach out via phone, email, or our online form. Your journey to better health starts here.
                 </p>
-                {/* <Image width={500} height={400}  src="/images/contact-us.jpg" alt="contact-us image" /> */}
                 <div className="contact-container df ais w100 pt16">
                   <div className="card-column-2 flx50">
                     <div className="card mt24 df ">
@@ -75,8 +72,7 @@ export default function Home() {
                       <div className="card-heading df fdc fww flx1">
                         <h3 className="fs24 fw6 lh34">Call Us</h3>
                         <p className="card-text fw5 lh30 fc6">
-                          Phone : +91 - 7678356232 <br />
-                          Fax : 011 - 35673235
+                          Phone : +91 - 7678356232 
                         </p>
                       </div>
                     </div>
@@ -91,7 +87,6 @@ export default function Home() {
                       <div className="card-heading df fdc fww flx1">
                         <h3 className="fs24 fw6 lh34">Email Us</h3>
                         <p className="card-text fw5 lh30 fc6">
-                          info@support.tld <br />
                           info@jeevanrakshahospital.com
                         </p>
                       </div>
@@ -105,8 +100,7 @@ export default function Home() {
                       <div className="card-heading df fdc fww flx1">
                         <h3 className="fs24 fw6 lh34">Office Hour</h3>
                         <p className="card-text fw5 lh30 fc6">
-                          Mon-Fri : 09am-07pm <br />
-                          Sat-Sun : Closed
+                          24*7 Hours Available
                         </p>
                       </div>
                     </div>

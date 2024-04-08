@@ -1,15 +1,28 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, {useState} from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import FindDoctorForm from "@/components/FindDoctorForm";
+
 
 const Footer = () => {
+  const [isPopupOpenM, setIsPopupOpenM] = useState(false);
+
+  const openPopupM = () => {
+    setIsPopupOpenM(true);
+  };
+
+  const closePopupM = () => {
+    setIsPopupOpenM(false);
+  };
+
   return (
     <>
+    <FindDoctorForm isOpen={isPopupOpenM} onClose={closePopupM} />
       <footer className="footer bg1 ptb48 fc4">
         <div className="wrapper">
           <div className="footer-top-sec v-center fww">
@@ -56,34 +69,12 @@ const Footer = () => {
                     Contact
                   </Link>
                 </li>
-                <li className="footer-links mb16">
-                  <Link href="/" className="footer-link transit2">
-                    Find a Doctor
-                  </Link>
+                <li onClick={openPopupM} className="footer-links mb16 cp">
+                  <Link href="/" className="footer-link transit2">Find a Doctor</Link>
                 </li>
                 <li className="footer-links mb16">
                   <Link href="/" className="footer-link transit2">
                     Emerency 24x7
-                  </Link>
-                </li>
-                <li className="footer-links mb16">
-                  <Link href="/" className="footer-link transit2">
-                    Doctor Videos
-                  </Link>
-                </li>
-                <li className="footer-links mb16">
-                  <Link href="/" className="footer-link transit2">
-                    Treatments
-                  </Link>
-                </li>
-                <li className="footer-links mb16">
-                  <Link href="/" className="footer-link transit2">
-                    Book an Appointment
-                  </Link>
-                </li>
-                <li className="footer-links mb16">
-                  <Link href="/" className="footer-link transit2">
-                    Immigration Services
                   </Link>
                 </li>
               </ul>

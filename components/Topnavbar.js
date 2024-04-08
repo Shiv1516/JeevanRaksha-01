@@ -16,7 +16,7 @@ const Topnavbar = () => {
       <div className="top-right-link v-center jscb fs14">
         <p className="v-center mlr12 fw5 fc16 fc-h1">
           <MdCall size={20} color="#1a76d1" />
-          <span className="ml8">+91 - 7678356232, 011 - 35673235</span>
+          <span className="ml8">+91 - 7678356232</span>
         </p>
         <p className="v-center mlr12 fw5 fc16 fc-h1 ml48">
           <MdEmail size={20} color="#1a76d1" />

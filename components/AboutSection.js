@@ -67,7 +67,7 @@ const AboutSection = () => {
                 color="#1a76d1"
                 className="mr4"
               />
-              Oxyzen on Wheel
+              Oxygen on Wheel
             </li>
             <li className="key-item v-center flx48 mb16">
               <IoCheckmarkDoneCircle

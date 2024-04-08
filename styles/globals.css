@@ -1454,6 +1454,10 @@ table {
   border-left: 6px solid #2693ff;
   border-bottom: 7px solid transparent;
 }
+.whatsapp-msg-close{
+  top: -10px;
+  left: -6px;
+}
 .scrollToTopBtn {
   width: 50px;
   height: 50px;
