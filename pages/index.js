@@ -3,13 +3,12 @@ import { Inter } from "next/font/google";
 import HeroSection from "@/components/HeroSection";
 import AppointmentForm from "@/components/AppointmentForm";
 import AboutSection from "@/components/AboutSection";
-import ServiceSection from "@/components/ServiceSection";
 import MedicalEmergency from "@/components/MedicalEmergency";
 import FaqSection from "@/components/FaqSection";
 import HowWeWork from "@/components/HowWeWork";
-import DoctorTeam from "@/components/DoctorTeam";
+import DoctorSection from "@/components/DoctorSection";
 import ContactUs from "@/components/ContactUs";
-import WhatsApp from "@/components/WhatsApp";
+import ServiceCard from "@/components/ServiceCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,11 +26,11 @@ export default function Home() {
       <AppointmentForm />
       <main className="main w100 ofh">
         <AboutSection />
-        <ServiceSection />
+        <ServiceCard />
         <FaqSection />
         <HowWeWork />
         <MedicalEmergency />
-        <DoctorTeam />
+        <DoctorSection />
         <ContactUs />
       </main>
     </>

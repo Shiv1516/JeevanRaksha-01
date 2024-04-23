@@ -9,20 +9,19 @@ const servicePageData = [
   {
     overview: {
       title: "Overview",
-      subheading: "Delivery Specialty at Jeevan Raksha",
+      subheading: "Compassionate Support for Women's Health Choices",
       content:
-        "Welcome to the Delivery Specialty at Jeevan Raksha, where we prioritize the well-being and comfort of mothers and newborns throughout the birthing process. Our dedicated team of experienced obstetricians, midwives, and nurses is committed to providing exceptional care tailored to each patient's needs. We understand that every journey to motherhood is unique, which is why we offer personalized support and attention to ensure a safe and comfortable delivery experience. From prenatal care to postnatal support, we strive to empower and guide mothers through this transformative journey with compassion, expertise, and unwavering dedication to their health and happiness. At Jeevan Raksha, we foster a nurturing environment where expectant mothers feel supported, empowered, and informed every step of the way. Our comprehensive services include prenatal education, childbirth classes, lactation support, and postpartum care, ensuring that mothers receive the guidance and resources they need to thrive during this extraordinary time in their lives. We believe in fostering strong bonds between parents and their newborns, promoting skin-to-skin contact, breastfeeding support, and bonding activities to facilitate a smooth transition into parenthood. With state-of-the-art facilities and compassionate care, we strive to make the birthing experience a cherished memory for families that will last a lifetime.",
+        "Welcome to Jeevan Raksha Hospital's Medical Termination of Pregnancy (MTP) Services, where we provide compassionate and confidential care for women facing unplanned or medically indicated pregnancies. Our dedicated team of healthcare professionals understands the sensitive nature of this decision and is committed to providing nonjudgmental support, comprehensive counseling, and safe medical procedures. We prioritize the physical and emotional well-being of every patient and strive to ensure that they receive personalized care and support throughout their MTP journey.",
       imageLink: "/images/delivery.jpg",
     },
     services: {
       title: "Services Offered",
-
-      subheading: "Comprehensive range of delivery services",
+      subheading: "Holistic Reproductive Healthcare Solutions",
       content:
-        "At Jeevan Raksha, we offer a comprehensive range of delivery services tailored to meet the individual needs of expectant mothers. From prenatal care and childbirth education to labor and delivery assistance, we provide expert medical care and emotional support every step of the way. Our services include natural childbirth, water birth, and cesarean delivery, ensuring that each mother receives the appropriate care based on her preferences and medical needs.",
+        "Jeevan Raksha Hospital offers comprehensive medical termination of pregnancy services, including counseling, medical assessments, and safe termination procedures. Our experienced gynecologists and support staff provide personalized care and support to ensure the comfort and well-being of every patient.",
       additionalServices: [
         {
-          icon: "customized-delivery-schedules-01",
+          icon: "physiotherapy-02",
           title: "Express Delivery Options",
           content:
             "Recognizing the urgency often associated with medical deliveries, we offer express delivery options for critical supplies. Whether it's emergency medication or life-saving equipment, our delivery team is equipped to handle expedited requests with the utmost priority.",
@@ -57,13 +56,13 @@ const servicePageData = [
       title: "Medical Team",
       subheading: "Meet Our Experienced Team of Doctors",
       content:
-        "Our team of experienced obstetricians and gynecologists at Jeevan Raksha Hospital are dedicated to ensuring the health and well-being of both mother and baby. With years of experience and expertise in maternal-fetal medicine, our physicians provide compassionate care and guidance throughout pregnancy, labor, and delivery. Supported by skilled midwives, nurses, and support staff, our medical team is committed to delivering safe and successful outcomes for every mother and newborn.",
+        "Our team of gynecologists, counselors, nurses, and support staff at Jeevan Raksha Hospital's MTP Services specializes in reproductive health care. With compassion and expertise, we provide nonjudgmental support and safe medical procedures to women seeking termination of pregnancy.",
     },
     facilities: {
       title: "Facilities and Technology",
-      subheading: "Equipped with state-of-the-art Facilities",
+      subheading: "Safe and Confidential Procedure Facilities",
       content:
-        "Jeevan Raksha Hospital is equipped with state-of-the-art facilities and advanced technology to support women during labor and delivery. Our spacious and comfortable birthing suites provide a serene environment for mothers and their families, with amenities designed to enhance comfort and relaxation during childbirth. We also offer access to specialized equipment, such as fetal monitoring systems and neonatal resuscitation units, to ensure the safety and well-being of both mother and baby.",
+        "Jeevan Raksha Hospital's MTP Services are conducted in safe and confidential facilities equipped with state-of-the-art medical technology. Our procedure rooms adhere to strict safety and privacy standards, ensuring that patients receive the highest quality of care in a supportive environment.",
       facilitiesList: [
         "Modern Infrastructure",
         "Specialized Departments",
@@ -107,7 +106,7 @@ export default function WellBabyClinic() {
           <div className="wrapper">
             <div className="page-heading-content">
               <h1 className="page-heading mb16 fs24 fw6 dib bg6 fc4 br4 ptb12 plr24">
-                Delivery
+                Medical Termination of Pregnancy (MTP)
               </h1>
               <div className="page-button df">
                 <Link

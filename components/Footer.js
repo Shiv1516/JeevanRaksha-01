@@ -86,7 +86,7 @@ const Footer = () => {
               <ul className="footer-links-list">
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/diabetes"
+                    href="/diabetes"
                     className="footer-link transit2"
                   >
                     Diabetes
@@ -94,7 +94,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/hypertension"
+                    href="/hypertension"
                     className="footer-link transit2"
                   >
                     Hypertension
@@ -102,7 +102,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/antenatalClinic"
+                    href="/antenatalClinic"
                     className="footer-link transit2"
                   >
                     Antenatal clinic
@@ -110,7 +110,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/chest"
+                    href="/chest"
                     className="footer-link transit2"
                   >
                     Chest
@@ -118,7 +118,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/delivery"
+                    href="/delivery"
                     className="footer-link transit2"
                   >
                     Delivery
@@ -126,7 +126,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/phototherapy"
+                    href="/phototherapy"
                     className="footer-link transit2"
                   >
                     Phototherapy
@@ -134,7 +134,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/hysterectomy"
+                    href="/hysterectomy"
                     className="footer-link transit2"
                   >
                     Hysterectomy
@@ -142,7 +142,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/infertilityClinic"
+                    href="/infertilityClinic"
                     className="footer-link transit2"
                   >
                     Infertility clinic
@@ -154,7 +154,7 @@ const Footer = () => {
               <ul className="footer-links-list mt56">
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/neonatalIntensiveCareUnit"
+                    href="/neonatalIntensiveCareUnit"
                     className="footer-link transit2"
                   >
                     Neonatal Intensive Care Unit (NICU)
@@ -162,7 +162,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/medicalTerminationOfPregnancy"
+                    href="/medicalTerminationOfPregnancy"
                     className="footer-link transit2"
                   >
                     Medical Termination of Pregnancy (MTP)
@@ -170,7 +170,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/cesareanSection"
+                    href="/cesareanSection"
                     className="footer-link transit2"
                   >
                     Cesarean section (C-section)
@@ -178,7 +178,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/vaccination"
+                    href="/vaccination"
                     className="footer-link transit2"
                   >
                     Vaccination
@@ -186,7 +186,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/wellBabyClinic"
+                    href="/wellBabyClinic"
                     className="footer-link transit2"
                   >
                     Well-baby clinic
@@ -195,7 +195,7 @@ const Footer = () => {
 
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/laparoscopicSurgery"
+                    href="/laparoscopicSurgery"
                     className="footer-link transit2"
                   >
                     Laparoscopic surgery
@@ -203,7 +203,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/generalSurgery"
+                    href="/generalSurgery"
                     className="footer-link transit2"
                   >
                     General surgery
@@ -215,7 +215,7 @@ const Footer = () => {
               <ul className="footer-links-list mt56">
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/thyroidDisorders"
+                    href="/thyroidDisorders"
                     className="footer-link transit2"
                   >
                     Thyroid disorders
@@ -223,7 +223,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/cosmeticAndPlasticSurgery"
+                    href="/cosmeticAndPlasticSurgery"
                     className="footer-link transit2"
                   >
                     Cosmetic and plastic surgery
@@ -231,7 +231,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/dialysis"
+                    href="/dialysis"
                     className="footer-link transit2"
                   >
                     Dialysis
@@ -239,7 +239,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/nephrologyClinic"
+                    href="/nephrologyClinic"
                     className="footer-link transit2"
                   >
                     Nephrology clinic
@@ -247,7 +247,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/fistula"
+                    href="/fistula"
                     className="footer-link transit2"
                   >
                     Fistula
@@ -255,7 +255,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/permacathInsertion"
+                    href="/permacathInsertion"
                     className="footer-link transit2"
                   >
                     Permacath insertion
@@ -263,7 +263,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/super-speciality-branches/gastroenterologyClinic"
+                    href="/gastroenterologyClinic"
                     className="footer-link transit2"
                   >
                     Gastroenterology clinic

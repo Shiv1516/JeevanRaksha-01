@@ -9,17 +9,16 @@ const servicePageData = [
   {
     overview: {
       title: "Overview",
-      subheading: "Delivery Specialty at Jeevan Raksha",
+      subheading: "Advanced Access for Long-term Dialysis Care",
       content:
-        "Welcome to the Delivery Specialty at Jeevan Raksha, where we prioritize the well-being and comfort of mothers and newborns throughout the birthing process. Our dedicated team of experienced obstetricians, midwives, and nurses is committed to providing exceptional care tailored to each patient's needs. We understand that every journey to motherhood is unique, which is why we offer personalized support and attention to ensure a safe and comfortable delivery experience. From prenatal care to postnatal support, we strive to empower and guide mothers through this transformative journey with compassion, expertise, and unwavering dedication to their health and happiness. At Jeevan Raksha, we foster a nurturing environment where expectant mothers feel supported, empowered, and informed every step of the way. Our comprehensive services include prenatal education, childbirth classes, lactation support, and postpartum care, ensuring that mothers receive the guidance and resources they need to thrive during this extraordinary time in their lives. We believe in fostering strong bonds between parents and their newborns, promoting skin-to-skin contact, breastfeeding support, and bonding activities to facilitate a smooth transition into parenthood. With state-of-the-art facilities and compassionate care, we strive to make the birthing experience a cherished memory for families that will last a lifetime.",
-      imageLink: "/images/delivery.jpg",
+        "Welcome to Jeevan Raksha Hospital's Permacath Insertion Services, where we specialize in providing advanced vascular access solutions for patients requiring long-term hemodialysis. A permacath, also known as a tunneled catheter, is a type of vascular access device used to facilitate dialysis treatments in patients with end-stage renal disease. Our experienced team of interventional radiologists and nephrologists is dedicated to providing safe and effective permacath insertions, ensuring optimal dialysis access for improved patient outcomes and quality of life. We understand the importance of vascular access in dialysis therapy and strive to deliver compassionate care and support to every patient undergoing permacath insertion at our facility.",
+      imageLink: "/images/pharmacy.jpg",
     },
     services: {
       title: "Services Offered",
-
-      subheading: "Comprehensive range of delivery services",
+      subheading: "Comprehensive Permacath Insertion Solutions",
       content:
-        "At Jeevan Raksha, we offer a comprehensive range of delivery services tailored to meet the individual needs of expectant mothers. From prenatal care and childbirth education to labor and delivery assistance, we provide expert medical care and emotional support every step of the way. Our services include natural childbirth, water birth, and cesarean delivery, ensuring that each mother receives the appropriate care based on her preferences and medical needs.",
+        "Jeevan Raksha Hospital offers comprehensive permacath insertion services for patients requiring long-term hemodialysis. Our skilled interventional radiologists and nephrologists perform permacath insertions using advanced techniques and imaging guidance to ensure precise placement and optimal function of the vascular access device.",
       additionalServices: [
         {
           icon: "customized-delivery-schedules-01",
@@ -55,15 +54,15 @@ const servicePageData = [
     },
     medicalTeam: {
       title: "Medical Team",
-      subheading: "Meet Our Experienced Team of Doctors",
+      subheading: "Expert Permacath Insertion Team",
       content:
-        "Our team of experienced obstetricians and gynecologists at Jeevan Raksha Hospital are dedicated to ensuring the health and well-being of both mother and baby. With years of experience and expertise in maternal-fetal medicine, our physicians provide compassionate care and guidance throughout pregnancy, labor, and delivery. Supported by skilled midwives, nurses, and support staff, our medical team is committed to delivering safe and successful outcomes for every mother and newborn.",
+        "Our team of interventional radiologists, nephrologists, vascular surgeons, and specialized nurses at Jeevan Raksha Hospital's Permacath Insertion Services specializes in providing expert care for patients requiring vascular access for hemodialysis. With extensive training and experience, our medical team ensures safe and efficient permacath insertions for improved patient outcomes.",
     },
     facilities: {
       title: "Facilities and Technology",
-      subheading: "Equipped with state-of-the-art Facilities",
+      subheading: "State-of-the-Art Vascular Access Facilities",
       content:
-        "Jeevan Raksha Hospital is equipped with state-of-the-art facilities and advanced technology to support women during labor and delivery. Our spacious and comfortable birthing suites provide a serene environment for mothers and their families, with amenities designed to enhance comfort and relaxation during childbirth. We also offer access to specialized equipment, such as fetal monitoring systems and neonatal resuscitation units, to ensure the safety and well-being of both mother and baby.",
+        "Jeevan Raksha Hospital's Permacath Insertion Services are conducted in modern facilities equipped with state-of-the-art imaging technology and specialized catheterization labs. Our facilities adhere to strict safety protocols and provide a sterile and comfortable environment for patients undergoing permacath insertions, ensuring optimal outcomes and patient satisfaction.",
       facilitiesList: [
         "Modern Infrastructure",
         "Specialized Departments",
@@ -77,7 +76,7 @@ const servicePageData = [
         "Robotic Surgery",
         "Patient Monitoring Systems",
       ],
-      imageLink: "/images/delivery-tech.jpg",
+      imageLink: "/images/pharmacy-02.jpg",
     },
   },
 ];
@@ -107,7 +106,7 @@ export default function WellBabyClinic() {
           <div className="wrapper">
             <div className="page-heading-content">
               <h1 className="page-heading mb16 fs24 fw6 dib bg6 fc4 br4 ptb12 plr24">
-                Delivery
+                Permacath insertion
               </h1>
               <div className="page-button df">
                 <Link

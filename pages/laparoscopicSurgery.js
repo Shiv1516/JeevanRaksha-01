@@ -9,17 +9,16 @@ const servicePageData = [
   {
     overview: {
       title: "Overview",
-      subheading: "Delivery Specialty at Jeevan Raksha",
+      subheading: "Advanced Surgical Solutions with Minimal Invasiveness",
       content:
-        "Welcome to the Delivery Specialty at Jeevan Raksha, where we prioritize the well-being and comfort of mothers and newborns throughout the birthing process. Our dedicated team of experienced obstetricians, midwives, and nurses is committed to providing exceptional care tailored to each patient's needs. We understand that every journey to motherhood is unique, which is why we offer personalized support and attention to ensure a safe and comfortable delivery experience. From prenatal care to postnatal support, we strive to empower and guide mothers through this transformative journey with compassion, expertise, and unwavering dedication to their health and happiness. At Jeevan Raksha, we foster a nurturing environment where expectant mothers feel supported, empowered, and informed every step of the way. Our comprehensive services include prenatal education, childbirth classes, lactation support, and postpartum care, ensuring that mothers receive the guidance and resources they need to thrive during this extraordinary time in their lives. We believe in fostering strong bonds between parents and their newborns, promoting skin-to-skin contact, breastfeeding support, and bonding activities to facilitate a smooth transition into parenthood. With state-of-the-art facilities and compassionate care, we strive to make the birthing experience a cherished memory for families that will last a lifetime.",
-      imageLink: "/images/delivery.jpg",
+        "Welcome to Jeevan Raksha Hospital's Laparoscopic Surgery Services, where we offer minimally invasive surgical procedures for various medical conditions. Laparoscopic surgery, also known as keyhole surgery, involves making small incisions and using specialized instruments to perform operations with precision and minimal trauma to surrounding tissues. At Jeevan Raksha Hospital, we are committed to providing advanced laparoscopic surgical techniques performed by skilled surgeons to ensure optimal outcomes for our patients.",
+      imageLink: "/images/pharmacy.jpg",
     },
     services: {
       title: "Services Offered",
-
-      subheading: "Comprehensive range of delivery services",
+      subheading: "Comprehensive Laparoscopic Procedures",
       content:
-        "At Jeevan Raksha, we offer a comprehensive range of delivery services tailored to meet the individual needs of expectant mothers. From prenatal care and childbirth education to labor and delivery assistance, we provide expert medical care and emotional support every step of the way. Our services include natural childbirth, water birth, and cesarean delivery, ensuring that each mother receives the appropriate care based on her preferences and medical needs.",
+        "Jeevan Raksha Hospital offers a wide range of laparoscopic surgical services for both elective and emergency procedures. Our laparoscopic surgery programs cover various specialties, including gynecology, urology, gastroenterology, and general surgery. Common laparoscopic procedures performed at our hospital include laparoscopic cholecystectomy (gallbladder removal), laparoscopic appendectomy, laparoscopic hysterectomy, laparoscopic hernia repair, and laparoscopic colon surgery.",
       additionalServices: [
         {
           icon: "customized-delivery-schedules-01",
@@ -55,15 +54,15 @@ const servicePageData = [
     },
     medicalTeam: {
       title: "Medical Team",
-      subheading: "Meet Our Experienced Team of Doctors",
+      subheading: "Expert Laparoscopic Surgery Specialists",
       content:
-        "Our team of experienced obstetricians and gynecologists at Jeevan Raksha Hospital are dedicated to ensuring the health and well-being of both mother and baby. With years of experience and expertise in maternal-fetal medicine, our physicians provide compassionate care and guidance throughout pregnancy, labor, and delivery. Supported by skilled midwives, nurses, and support staff, our medical team is committed to delivering safe and successful outcomes for every mother and newborn.",
+        "Our team of surgeons, anesthesiologists, nurses, and support staff at Jeevan Raksha Hospital's Laparoscopic Surgery Services is dedicated to providing expert care and support throughout the surgical process. With specialized training and experience in laparoscopic techniques, our medical team ensures safe and effective surgeries while minimizing postoperative pain, scarring, and recovery time for our patients.",
     },
     facilities: {
       title: "Facilities and Technology",
-      subheading: "Equipped with state-of-the-art Facilities",
+      subheading: "State-of-the-Art Laparoscopic Operating Facilities",
       content:
-        "Jeevan Raksha Hospital is equipped with state-of-the-art facilities and advanced technology to support women during labor and delivery. Our spacious and comfortable birthing suites provide a serene environment for mothers and their families, with amenities designed to enhance comfort and relaxation during childbirth. We also offer access to specialized equipment, such as fetal monitoring systems and neonatal resuscitation units, to ensure the safety and well-being of both mother and baby.",
+        "Jeevan Raksha Hospital's Laparoscopic Surgery Services are conducted in modern and well-equipped operating rooms designed specifically for minimally invasive procedures. Our facilities feature state-of-the-art laparoscopic equipment, including high-definition cameras, specialized surgical instruments, and advanced imaging technology, to ensure precise and efficient surgeries. We also adhere to strict sterilization protocols and safety standards to minimize the risk of complications and ensure the highest level of patient care.",
       facilitiesList: [
         "Modern Infrastructure",
         "Specialized Departments",
@@ -77,7 +76,7 @@ const servicePageData = [
         "Robotic Surgery",
         "Patient Monitoring Systems",
       ],
-      imageLink: "/images/delivery-tech.jpg",
+      imageLink: "/images/pharmacy-02.jpg",
     },
   },
 ];
@@ -107,7 +106,7 @@ export default function WellBabyClinic() {
           <div className="wrapper">
             <div className="page-heading-content">
               <h1 className="page-heading mb16 fs24 fw6 dib bg6 fc4 br4 ptb12 plr24">
-                Delivery
+                Laparoscopic Surgery
               </h1>
               <div className="page-button df">
                 <Link
