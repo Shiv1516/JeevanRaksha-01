@@ -1,5 +1,5 @@
 // components/DynamicNavigation.js
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 const navigationData = {
@@ -170,15 +170,29 @@ const navigationData = {
   },
 };
 
-const DynamicNavigation = () => {
+const DynamicNavigation = ({ closeNavbar }) => {
+  const [isShown, setIsShown] = useState(false);
+
+  useEffect(() => {
+    setIsShown(true);
+  }, []);
+
+  const handleServiceClick = () => {
+    closeNavbar();
+  };
   return (
-    <ul className="dropdown df fww bg4 l0 r0 pf zi3 pr aft bef ">
+    <ul
+      className={`dropdown df fww bg4 l0 r0 pf zi3 pr aft bef ${
+        isShown ? "show" : ""
+      }`}
+    >
       {navigationData.speciality.branches.map((branch) => (
         <li key={branch.id} className={`branch flx25 ${branch.bgcolor}`}>
           <ul>
             {branch.departments.map((department) => (
               <li className="bg-h9 mtb8 plr24 df" key={department.id}>
                 <Link
+                  onClick={handleServiceClick}
                   className="w100"
                   href={`/${department.url}`}
                 >

@@ -73,7 +73,7 @@ const Footer = () => {
                   <Link href="/" className="footer-link transit2">Find a Doctor</Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link href="/" className="footer-link transit2">
+                  <Link href="/contact-us" className="footer-link transit2">
                     Emerency 24x7
                   </Link>
                 </li>

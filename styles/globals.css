@@ -1466,7 +1466,7 @@ table {
   cursor: pointer;
   position: fixed;
   right: 24px;
-  z-index: 999;
+  z-index: 95;
 }
 .membership-form {
   display: none;
