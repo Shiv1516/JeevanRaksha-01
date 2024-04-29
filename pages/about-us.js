@@ -52,41 +52,42 @@ export default function Home() {
             <div className="about-text pl48">
               <div className="about-content">
                 <span className="about-sub-heading fs18 fc1 fw6 ">
-                  About Us
+                  Welcome to Jeevan Raksha Hospital
                 </span>
                 <h2 className="about-heading fs36 fw6 ptb24 lh48">
-                  Short Story About Fovia Clinic Since 1999
+                  A Brief Overview of Jeevan Raksha Hospital
                 </h2>
                 <p className="about-desc lh30 v-center fc3 fs18 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  At Jeevan Raksha Hospital, we're dedicated to providing
+                  top-notch healthcare. Our team works tirelessly to give you
+                  the best care possible. We focus on treating you with
+                  compassion and using the latest medical advancements. Your
+                  well-being is our priority.
                 </p>
                 <ul className="about-list lh30 pt24">
-                  <li className="v-center">
-                    <FaDotCircle className="fc1 mr8" /> Scientific Skills For
-                    getting a better result
+                  <li className="v-center mb8">
+                    <FaDotCircle className="fc1 mr8" /> Excellent Patient Care
+                    Every Time
                   </li>
-                  <li className="v-center">
-                    <FaDotCircle className="fc1 mr8" /> Communication Skills to
-                    getting in touch
+                  <li className="v-center mb8">
+                    <FaDotCircle className="fc1 mr8" /> Building Trusting
+                    Patient Relationships
                   </li>
-                  <li className="v-center">
-                    <FaDotCircle className="fc1 mr8" /> A Career Overview
-                    opportunity Available
+                  <li className="v-center mb8">
+                    <FaDotCircle className="fc1 mr8" /> Innovating for Better
+                    Health Solutions
                   </li>
-                  <li className="v-center">
-                    <FaDotCircle className="fc1 mr8" /> A good Work Environment
-                    For work
+                  <li className="v-center mb8">
+                    <FaDotCircle className="fc1 mr8" /> Supporting Staff Growth
+                    and Development
                   </li>
-                  <li className="v-center">
-                    <FaDotCircle className="fc1 mr8" /> Scientific Skills For
-                    getting a better result
+                  <li className="v-center mb8">
+                    <FaDotCircle className="fc1 mr8" /> Nurturing a Positive
+                    Work Environment
                   </li>
-                  <li className="v-center">
-                    <FaDotCircle className="fc1 mr8" /> Communication Skills to
-                    getting in touch
+                  <li className="v-center mb8">
+                    <FaDotCircle className="fc1 mr8" /> Investing in Staff's
+                    Professionalism
                   </li>
                 </ul>
               </div>
@@ -94,43 +95,46 @@ export default function Home() {
           </div>
         </secion>
         <section className="our-vision-area ptb48">
-          <div className="card-container wrapper df fww">
-            <div className="card flx33 mb16">
+          <div className="card-container wrapper df fww aisc">
+            <div className="card flx33 mb16 df">
               <div className="single-vision-box box-sd1 p24 mlr12">
                 <div className="fs36 fc1 pb16 ">
                   <FaCheckCircle />
                 </div>
                 <h3 className="lh24 v-center fw7 fs22 pb16 ">Our Mission</h3>
                 <p className="lh30 v-center fc3 fs18 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse.
+                  Delivering compassionate, high-quality healthcare services to
+                  our community, ensuring every patient receives exceptional
+                  care tailored to their needs and fosters a sense of
+                  well-being.
                 </p>
               </div>
             </div>
-            <div className="card flx33 mb16">
+            <div className="card flx33 mb16 df">
               <div className="single-vision-box box-sd1 p24 mlr12">
                 <div className="fs36 fc1 pb16">
                   <FaCheckCircle />
                 </div>
-                <h3 className="lh24 v-center fw7 fs22 pb16 ">Our Mission</h3>
+                <h3 className="lh24 v-center fw7 fs22 pb16 ">Our Vision</h3>
                 <p className="lh30 v-center fc3 fs18 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse.
+                  Striving to become the premier healthcare provider in the
+                  region, renowned for our dedication to excellence and
+                  innovation, promoting wellness and accessibility to healthcare
+                  for all.
                 </p>
               </div>
             </div>
-            <div className="card flx33 mb16">
+            <div className="card flx33 mb16 df">
               <div className="single-vision-box box-sd1 p24 mlr12">
                 <div className="fs36 fc1 pb16">
                   <FaCheckCircle />
                 </div>
-                <h3 className="lh24 v-center fw7 fs22 pb16 ">Our Mission</h3>
+                <h3 className="lh24 v-center fw7 fs22 pb16 ">Our Values</h3>
                 <p className="lh30 v-center fc3 fs18 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse.
+                  Guided by compassion, integrity, collaboration, and
+                  excellence, we uphold the highest ethical standards, work
+                  collaboratively, and continuously innovate to provide
+                  outstanding patient care.
                 </p>
               </div>
             </div>
@@ -138,63 +142,64 @@ export default function Home() {
         </section>
         <section className="our-mission-secion">
           <div className="wrapper ptb48 df">
-            <div className="about-content pr48">
+            <div className="about-content pr48 flx50">
               <span className="about-sub-heading fs18 fc1 fw6 ">
-                Our Mission & Vision
+                Our Commitment to Excellence
               </span>
               <h2 className="about-heading fs36 fw6 ptb24 lh48">
                 Better Information, Better Health
               </h2>
               <p className="about-desc lh30 v-center fc3 fs18 ">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                At Jeevan Raksha Hospital, we're dedicated to providing
+                tailored, high-quality healthcare. Our experienced team
+                prioritizes your well-being.
               </p>
-              <div className="df">
-                <ul className="lh30 pt24">
+              <div className="df fww">
+                <ul className="lh30 flx50 pt24">
                   <FaUserDoctor className="fs26 fc1" />
                   <li>
-                    PROFESSIONAL STAFF
+                    EXPERT MEDICAL STAFF
                     <p>
-                      Lorem ipsum dolor sit amet sit, consectetur adipiscing
-                      elit.
+                      Skilled doctors and nurses providing personalized care and
+                      expertise.
                     </p>
                   </li>
                 </ul>
-                <ul className="lh30 pt24">
+                <ul className="lh30 flx50 pt24">
                   <FaFlask className="fs26 fc1" />
                   <li>
                     SUFFICIENT LAB TESTS
                     <p>
-                      Lorem ipsum dolor sit amet sit, consectetur adipiscing
-                      elit.
+                      Equipped with cutting-edge technology, offering a wide
+                      range of diagnostic tests for accurate results.
                     </p>
                   </li>
                 </ul>
               </div>
-              <div className="df">
-                <ul className="lh30 pt24">
+              <div className="df fww">
+                <ul className="lh30 flx50 pt24">
                   <FaBaby className="fs26 fc1" />
                   <li>
-                    NEWBORN CARE
+                    PEDIATRIC CARE
                     <p>
-                      Lorem ipsum dolor sit amet sit, consectetur adipiscing
-                      elit.
+                      Specialized unit provides compassionate care for children,
+                      ensuring their health and well-being.
                     </p>
                   </li>
                 </ul>
-                <ul className="lh30 pt24">
+                <ul className="lh30 flx50 pt24">
                   <FaUserDoctor className="fs26 fc1" />
                   <li>
-                    Delivery
+                    MATERNITY SERVICES
                     <p>
-                      Lorem ipsum dolor sit amet sit, consectetur adipiscing
-                      elit.
+                      Comprehensive maternity services from prenatal care to
+                      delivery, focusing on safety and comfort.
                     </p>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="about-faq2 br24 ofh">
+            <div className="about-faq2 br24 flx50 ofh">
               <img
                 src="/images/mission-img.jpg"
                 layout="responsive"

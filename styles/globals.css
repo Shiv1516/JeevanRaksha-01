@@ -1442,7 +1442,7 @@ table {
   width: 55px;
   height: auto;
 }
-.whatsapp-msg{
+.whatsapp-msg {
   background-color: #2693ff;
 }
 .whatsapp-msg:before {
@@ -1453,7 +1453,7 @@ table {
   border-left: 6px solid #2693ff;
   border-bottom: 7px solid transparent;
 }
-.whatsapp-msg-close{
+.whatsapp-msg-close {
   top: -10px;
   left: -6px;
 }
@@ -1809,7 +1809,8 @@ table {
   .about-text {
     padding-left: 0;
   }
-  .about-main-secion .about-faq {
+  .about-main-secion .about-faq,
+  .about-faq2 {
     flex: 0 0 100%;
     max-width: 100%;
     height: 32vh;
@@ -1822,15 +1823,13 @@ table {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
-  .about-faq2 {
-    margin-bottom: 24px;
-    height: 32vh;
-  }
+
   .about-content {
     padding-right: 0;
   }
   .about-content ul {
     padding: 24px;
+    max-width: calc(100% - 48px);
   }
   .additional-service,
   .card-container .card,
