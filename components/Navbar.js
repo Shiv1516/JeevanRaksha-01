@@ -72,10 +72,11 @@ const Navbar = () => {
           >
             <Link href="/about-us">About Us</Link>
           </li>
-          <li className="nav-item fw4 transit2 fs16 p16 mlr4 fc-h1">
-            <Link href="/contact-us" onClick={closeNavbar}>
-              Contact Us
-            </Link>
+          <li
+            className="nav-item fw4 transit2 fs16 p16 mlr4 fc-h1"
+            onClick={closeNavbar}
+          >
+            <Link href="/contact-us">Contact Us</Link>
           </li>
         </ul>
       </nav>
