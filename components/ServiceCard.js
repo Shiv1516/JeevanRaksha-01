@@ -14,7 +14,7 @@ const serviceCardData = [
     description:
       "A chronic condition affecting blood sugar levels. Manageable with medication, diet, and lifestyle changes. Regular monitoring is essential.",
     image: "about-image-01.jpg",
-    serviceUrl: "super-speciality-branches/diabetes",
+    serviceUrl: "/diabetes",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const serviceCardData = [
     description:
       "With state-of-the-art facilities and a dedicated team, we're here to support your personalized healthcare solutions..",
     image: "about-image-02.jpg",
-    serviceUrl: "super-speciality-branches/wellBabyClinic",
+    serviceUrl: "/well-baby-clinic",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const serviceCardData = [
     description:
       "From specialized treatments to emergency care, we're committed to providing exceptional...",
     image: "about-image.jpg",
-    serviceUrl: "super-speciality-branches/phototherapy",
+    serviceUrl: "/phototherapy",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const serviceCardData = [
     description:
       "pharmacy, and advanced diagnostic imaging like x-ray, ECG, and ABG ound-the-clock care, including..",
     image: "about-image-01.jpg",
-    serviceUrl: "super-speciality-branches/laparoscopicSurgery",
+    serviceUrl: "/laparoscopicSurgery",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const serviceCardData = [
     description:
       "Our emergency services offer round-the-clock care, including ICU and NICU facilities, ambulance services...",
     image: "about-image-02.jpg",
-    serviceUrl: "super-speciality-branches/cosmeticAndPlasticSurgery",
+    serviceUrl: "/cosmeticAndPlasticSurgery",
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const serviceCardData = [
     description:
       "From specialized treatments to emergency care, we're committed to providing exceptional...",
     image: "about-image-01.jpg",
-    serviceUrl: "super-speciality-branches/nephrologyClinic",
+    serviceUrl: "/nephrologyClinic",
   },
 ];
 
