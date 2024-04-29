@@ -54,7 +54,11 @@ const Navbar = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <Link href="/" className="v-center" onClick={handleFirstServiceClick}>
+            <Link
+              href="/"
+              className="v-center"
+              onClick={handleFirstServiceClick}
+            >
               Super Speciality Branches
               <IoIosArrowDown size={18} className="fc2 ml4 mt4" />
             </Link>
@@ -62,11 +66,16 @@ const Navbar = () => {
               <DynamicNavigation closeNavbar={closeNavbar} />
             )}
           </li>
-          <li className="nav-item fw4 transit2 fs16 p16 mlr4 fc-h1">
+          <li
+            className="nav-item fw4 transit2 fs16 p16 mlr4 fc-h1"
+            onClick={closeNavbar}
+          >
             <Link href="/about-us">About Us</Link>
           </li>
           <li className="nav-item fw4 transit2 fs16 p16 mlr4 fc-h1">
-            <Link href="/contact-us">Contact Us</Link>
+            <Link href="/contact-us" onClick={closeNavbar}>
+              Contact Us
+            </Link>
           </li>
         </ul>
       </nav>

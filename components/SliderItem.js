@@ -9,7 +9,12 @@ const SliderItem = ({
   subtext,
   button1Text,
   button2Text,
+  onButtonClick
 }) => {
+  // const handleButtonClick = () => {
+  //   // Call the function passed as a prop
+  //   onButtonClick();
+  // };
   return (
     <motion.div className="slider-item pr">
       <img src={imageUrl} alt={`Banner`} />
@@ -19,12 +24,12 @@ const SliderItem = ({
             <h1 className="slide-heading fs38 fw7 lh42 fc2">{heading}</h1>
             <p className="slide-subtext fs14 lh22 mt24">{subtext}</p>
             <div className="buttons v-center mt24">
-              <Link
-                href="/contact-us"
-                className="apt-btn box-center h48 br2 plr24 bg1 fc4"
+              <div
+                onClick={onButtonClick}
+                className="apt-btn box-center h48 br2 plr24 bg1 fc4 cp"
               >
                 {button1Text}
-              </Link>
+              </div>
               <Link
                 href="/about-us"
                 className="lm-btn box-center h48 br2 plr24 bg2 fc4 ml16 "

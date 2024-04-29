@@ -31,7 +31,7 @@ const bannerData = [
   },
 ];
 
-const SliderComponent = () => {
+const SliderComponent = ({ onButtonClick }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -45,7 +45,7 @@ const SliderComponent = () => {
   return (
     <Slider {...settings}>
       {bannerData.map((slide, index) => (
-        <SliderItem key={index} {...slide} />
+        <SliderItem key={index} onButtonClick={onButtonClick} {...slide} />
       ))}
     </Slider>
   );
