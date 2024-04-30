@@ -119,7 +119,7 @@ const servicePageData = [
   },
 ];
 
-export default function WellBabyClinic() {
+export default function chest() {
   const [isPopupOpenM, setIsPopupOpenM] = useState(false);
 
   const openPopupM = () => {

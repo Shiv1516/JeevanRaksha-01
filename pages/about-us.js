@@ -9,7 +9,7 @@ import { FaBaby } from "react-icons/fa6";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function aboutUs() {
   return (
     <>
       <Head>

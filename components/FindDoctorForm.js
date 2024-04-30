@@ -2,44 +2,82 @@ import React, { useState } from "react";
 import { ImCross } from "react-icons/im";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import emailjs from "emailjs-com";
 
 const FindDoctorForm = ({ isOpen, onClose }) => {
   const [fullName, setFullName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
-  const [membershipType, setMembershipType] = useState("");
   const [disease, setdisease] = useState("");
-  const [volunteerInterests, setVolunteerInterests] = useState([]);
   const [additionalInfo, setAdditionalInfo] = useState("");
   const [appointmentDate, setAppointmentDate] = useState(new Date());
+  const [phoneNumberError, setPhoneNumberError] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({
+
+    if (
+      !fullName ||
+      !phoneNumber ||
+      !disease ||
+      !additionalInfo ||
+      !appointmentDate
+    ) {
+      setErrorMessage("Please fill in all required fields.");
+      return;
+    }
+
+    if (!/^\d{10}$/.test(phoneNumber)) {
+      setPhoneNumberError("Please enter a valid 10-digit phone number");
+      return;
+    }
+
+    setPhoneNumberError("");
+    // EmailJS integration
+    const templateParams = {
       fullName,
       phoneNumber,
-      membershipType,
       disease,
-      volunteerInterests,
       additionalInfo,
-      appointmentDate
-    });
+      appointmentDate: appointmentDate.toLocaleString(),
+    };
 
-    resetForm();
+    emailjs
+      .send(
+        "service_bgj85q9", // service ID
+        "template_uh2krmi", // template ID
+        templateParams,
+        "OlRitH0iIQNzkucp1" // user ID
+      )
+      .then(
+        (response) => {
+          console.log("Email sent successfully!", response);
+          resetForm();
+          onClose();
+          alert("Form submitted successfully!");
+        },
+        (error) => {
+          console.error("Error sending email:", error);
+          alert("Failed to submit form");
+        }
+      );
   };
 
   const resetForm = () => {
     setFullName("");
     setPhoneNumber("");
-    setMembershipType("");
     setdisease("");
-    setVolunteerInterests([]);
     setAdditionalInfo("");
     setAppointmentDate(new Date());
   };
 
   return (
     <div
-      className={`membership-form pf t0 b0 w100 ${isOpen ? "open-m-form" : ""}`}
+      className={`bookappoinment-form pf t0 b0 w100 ${
+        isOpen ? "open-m-form" : ""
+      }`}
     >
       <form
         onSubmit={handleSubmit}
@@ -65,9 +103,24 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
           type="tel"
           id="phoneNumber"
           value={phoneNumber}
-          onChange={(e) => setPhoneNumber(e.target.value)}
+          onChange={(e) => {
+            const value = e.target.value;
+            if (!/^\d*$/.test(value)) {
+              setPhoneNumberError("Please enter only numeric characters");
+              return;
+            }
+            setPhoneNumber(value);
+            setPhoneNumberError("");
+          }}
+          minLength={10}
+          maxLength={10}
           required
         />
+        {phoneNumberError && (
+          <p className="mt4" style={{ color: "red" }}>
+            {phoneNumberError}
+          </p>
+        )}
 
         <label htmlFor="disease">Disease:</label>
         <input
@@ -80,7 +133,7 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
 
         <label htmlFor="additionalInfo">Additional Information:</label>
         <textarea
-        className="w100"
+          className="w100"
           id="additionalInfo"
           value={additionalInfo}
           onChange={(e) => setAdditionalInfo(e.target.value)}
@@ -93,6 +146,7 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
           id="appointmentDate"
           selected={appointmentDate}
           onChange={(date) => setAppointmentDate(date)}
+          minDate={new Date()}
           showTimeSelect
           timeFormat="HH:mm"
           timeIntervals={15}
@@ -104,7 +158,6 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
         <div className="popup-submit df ">
           <button
             type="submit"
-            onClick={onClose}
             className="submit-btn transit2 h48 box-center br8 bg1 fc4 ptb24 plr48 fw7 mt24 cp mr32"
           >
             Submit
@@ -117,6 +170,11 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
             Reset
           </button>
         </div>
+        {errorMessage && (
+          <p className="mt8" style={{ color: "red" }}>
+            {errorMessage}
+          </p>
+        )}
       </form>
     </div>
   );

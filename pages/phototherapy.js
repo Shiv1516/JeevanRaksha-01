@@ -80,7 +80,7 @@ const servicePageData = [
   },
 ];
 
-export default function WellBabyClinic() {
+export default function phototherapy() {
   const [isPopupOpenM, setIsPopupOpenM] = useState(false);
 
   const openPopupM = () => {

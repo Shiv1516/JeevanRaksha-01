@@ -80,7 +80,7 @@ const servicePageData = [
   },
 ];
 
-export default function WellBabyClinic() {
+export default function diabetes() {
   const [isPopupOpenM, setIsPopupOpenM] = useState(false);
 
   const openPopupM = () => {

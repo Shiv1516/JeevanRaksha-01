@@ -81,7 +81,7 @@ const servicePageData = [
   },
 ];
 
-export default function WellBabyClinic() {
+export default function gastroenterologyClinic() {
   const [isPopupOpenM, setIsPopupOpenM] = useState(false);
 
   const openPopupM = () => {

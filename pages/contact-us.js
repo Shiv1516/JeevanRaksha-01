@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React, { useState } from "react";
 import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import { HiBuildingOffice } from "react-icons/hi2";
@@ -6,8 +7,82 @@ import { HiOutlineMail } from "react-icons/hi";
 import { IoCall } from "react-icons/io5";
 import { FaHospitalSymbol, FaAngleRight } from "react-icons/fa";
 import Link from "next/link";
+import emailjs from "emailjs-com";
 
-export default function Home() {
+export default function contactUs() {
+  const [name, setName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [disease, setDisease] = useState("");
+  const [drName, setDrName] = useState("");
+  const [message, setMessage] = useState("");
+  const [formError, setFormError] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Basic validation
+    if (!name || !phoneNumber || !disease || !drName || !message) {
+      setFormError("Please fill in all fields.");
+      setTimeout(() => {
+        setFormError("");
+      }, 5000);
+      return;
+    }
+
+    // Perform any additional validation if needed
+
+    // If all validations pass, proceed with form submission
+    // For now, we'll just log the form data
+    console.log({
+      name,
+      phoneNumber,
+      disease,
+      drName,
+      message,
+    });
+
+    const templateParams = {
+      from_name: name,
+      phoneNumber,
+      disease,
+      drName,
+      message,
+    };
+
+    emailjs
+      .send(
+        "service_bgj85q9", // service ID
+        "template_720sdrl", // template ID
+        templateParams,
+        "OlRitH0iIQNzkucp1" // user ID
+      )
+      .then((response) => {
+        console.log("Email sent successfully:", response);
+        setSuccessMessage("Form submitted successfully!");
+        setTimeout(() => {
+          setSuccessMessage("");
+        }, 5000); // Hide success message after 5 seconds
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+        setFormError("Failed to submit form");
+        setTimeout(() => {
+          setFormError("");
+        }, 5000); // Hide error message after 5 seconds
+      });
+
+    // Clear form fields
+    setName("");
+    setPhoneNumber("");
+    setDisease("");
+    setDrName("");
+    setMessage("");
+
+    // Show success message
+    setSuccessMessage("Form submitted successfully!");
+  };
+
   return (
     <>
       <Head>
@@ -47,7 +122,10 @@ export default function Home() {
                   Reach Out to Us
                 </h2>
                 <p className="section-text fs16 fw4 lh30 fc3 mt16 pb32 pr40 flx1 pr aft btm-line">
-                Questions? Concerns? Need to schedule an appointment? Contact us today! Our compassionate team is here to provide prompt assistance tailored to your needs. Reach out via phone, email, or our online form. Your journey to better health starts here.
+                  Questions? Concerns? Need to schedule an appointment? Contact
+                  us today! Our compassionate team is here to provide prompt
+                  assistance tailored to your needs. Reach out via phone, email,
+                  or our online form. Your journey to better health starts here.
                 </p>
                 <div className="contact-container df ais w100 pt16">
                   <div className="card-column-2 flx50">
@@ -72,7 +150,7 @@ export default function Home() {
                       <div className="card-heading df fdc fww flx1">
                         <h3 className="fs24 fw6 lh34">Call Us</h3>
                         <p className="card-text fw5 lh30 fc6">
-                          Phone : +91 - 7678356232 
+                          Phone : +91 - 7678356232
                         </p>
                       </div>
                     </div>
@@ -115,52 +193,72 @@ export default function Home() {
                 </h3>
               </div>
               <div className="form mt32">
-                <form action="#" method="post">
+                <form action="#" method="post" onSubmit={handleSubmit}>
                   <div className="contact-form df fww mb16">
                     <div className="input-column df fww flx50 mb16">
-                      <label className="fw5 mb8 ml84 pl4" for="">
+                      <label className="fw5 mb8 ml84 pl4" htmlFor="">
                         Name
                       </label>
                       <input
                         className="w100 pl12 db h48 br8 brd1 mlr4"
                         type="text"
                         placeholder="Name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        required
                       />
                     </div>
 
                     <div className="input-column df fww flx50 mb16">
-                      <label className="fw5 mb8 ml84 pl4" for="">
+                      <label className="fw5 mb8 ml84 pl4" htmlFor="">
                         Phone
                       </label>
                       <br />
                       <input
                         className="w100 pl12 db h48 br8 brd1 mlr4"
-                        type="text"
+                        type="number"
                         placeholder="Phone"
+                        value={phoneNumber}
+                        onChange={(e) => {
+                          // Only allow numeric characters
+                          const input = e.target.value.replace(/\D/g, '');
+                          // Limit to 10 characters
+                          const limitedInput = input.slice(0, 10);
+                          // Update the state
+                          setPhoneNumber(limitedInput);
+                        }}
+                        maxLength={10}
+                        required
                       />
                     </div>
                     <div className="input-column df fww flx50 mb16">
-                      <label className="fw5 mb8 ml84 pl4" for="">
+                      <label className="fw5 mb8 ml84 pl4" htmlFor="">
                         Disease
                       </label>
                       <input
                         className=" w100 pl12 db h48 br8 brd1 mlr4"
                         type="text"
                         placeholder="Disease"
+                        value={disease}
+                        onChange={(e) => setDisease(e.target.value)}
+                        required
                       />
                     </div>
                     <div className="input-column df fww flx50 mb16">
-                      <label className="fw5 mb8 ml84 pl4" for="">
+                      <label className="fw5 mb8 ml84 pl4" htmlFor="">
                         Doctor Name
                       </label>
                       <input
                         className="w100 pl12 db h48 br8 brd1 mlr4"
                         type="text"
                         placeholder="Doctor Name..."
+                        value={drName}
+                        onChange={(e) => setDrName(e.target.value)}
+                        required
                       />
                     </div>
                     <div className="df fww flx100 pr8">
-                      <label className="fw5 mb8 ml84 pl4" for="">
+                      <label className="fw5 mb8 ml84 pl4" htmlFor="">
                         Message
                       </label>
                       <textarea
@@ -169,13 +267,28 @@ export default function Home() {
                         id=""
                         rows="7"
                         placeholder="Write a Message"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                        required
                       ></textarea>
                     </div>
-                    <div className="submit-btn h48 br8 v-center jcc plr24 mt8 cp fc4 bg1">
-                      Submit Now
-                    </div>
+                    <input
+                      type="submit"
+                      value="Submit Now"
+                      className="submit-btn h48 br8 v-center jcc plr24 mt8 cp fc4 bg1"
+                    />
                   </div>
                 </form>
+                {formError && (
+                  <p className="plr12 mt8" style={{ color: "red" }}>
+                    {formError}
+                  </p>
+                )}
+                {successMessage && (
+                  <p className="plr12 mt8" style={{ color: "green" }}>
+                    {successMessage}
+                  </p>
+                )}
               </div>
             </div>
           </div>

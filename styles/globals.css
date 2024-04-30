@@ -1468,11 +1468,11 @@ table {
   right: 24px;
   z-index: 95;
 }
-.membership-form {
+.bookappoinment-form {
   display: none;
   z-index: 9999;
 }
-.open-m-form.membership-form {
+.open-m-form.bookappoinment-form {
   display: flex;
   align-items: center;
   justify-content: center;
