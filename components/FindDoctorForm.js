@@ -46,10 +46,10 @@ const FindDoctorForm = ({ isOpen, onClose }) => {
 
     emailjs
       .send(
-        "service_bgj85q9", // service ID
-        "template_uh2krmi", // template ID
+        "service_f15nvit", // service ID
+        "template_k90t1y7", // template ID
         templateParams,
-        "OlRitH0iIQNzkucp1" // user ID
+        "FRR4vRUj_pumYh6hL" // user ID
       )
       .then(
         (response) => {

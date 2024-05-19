@@ -52,10 +52,10 @@ export default function contactUs() {
 
     emailjs
       .send(
-        "service_bgj85q9", // service ID
-        "template_720sdrl", // template ID
+        "service_f15nvit", // service ID
+        "template_mgh9ha9", // template ID
         templateParams,
-        "OlRitH0iIQNzkucp1" // user ID
+        "FRR4vRUj_pumYh6hL" // user ID
       )
       .then((response) => {
         console.log("Email sent successfully:", response);
