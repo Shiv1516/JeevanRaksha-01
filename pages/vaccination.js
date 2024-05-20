@@ -190,7 +190,7 @@ export default function vaccination() {
                 </div>
               </div>
             </section>
-            <section className="service-section ptb48 brd-t1">
+            <section className="service-section ptb48 brd-t1 dn">
               <div className="service-contain wrapper">
                 <article className="left-content flx1 plr48">
                   <div className="service-heading mb48 mt48 flx100 v-center fdc tac">

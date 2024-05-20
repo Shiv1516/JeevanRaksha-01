@@ -6,7 +6,7 @@ import AboutSection from "@/components/AboutSection";
 import MedicalEmergency from "@/components/MedicalEmergency";
 import FaqSection from "@/components/FaqSection";
 import HowWeWork from "@/components/HowWeWork";
-import DoctorSection from "@/components/DoctorSection";
+// import DoctorSection from "@/components/DoctorSection";
 import ContactUs from "@/components/ContactUs";
 import ServiceCard from "@/components/ServiceCard";
 
@@ -30,7 +30,7 @@ export default function Home() {
         <FaqSection />
         <HowWeWork />
         <MedicalEmergency />
-        <DoctorSection />
+        {/* <DoctorSection /> */}
         <ContactUs />
       </main>
     </>
