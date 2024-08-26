@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import FindDoctorForm from "@/components/FindDoctorForm";
-
 
 const Footer = () => {
   const [isPopupOpenM, setIsPopupOpenM] = useState(false);
@@ -22,7 +21,7 @@ const Footer = () => {
 
   return (
     <>
-    <FindDoctorForm isOpen={isPopupOpenM} onClose={closePopupM} />
+      <FindDoctorForm isOpen={isPopupOpenM} onClose={closePopupM} />
       <footer className="footer bg1 ptb48 fc4">
         <div className="wrapper">
           <div className="footer-top-sec v-center fww">
@@ -70,7 +69,9 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li onClick={openPopupM} className="footer-links mb16 cp">
-                  <Link href="/" className="footer-link transit2">Find a Doctor</Link>
+                  <Link href="/" className="footer-link transit2">
+                    Find a Doctor
+                  </Link>
                 </li>
                 <li className="footer-links mb16">
                   <Link href="/contact-us" className="footer-link transit2">
@@ -85,18 +86,12 @@ const Footer = () => {
               </h4>
               <ul className="footer-links-list">
                 <li className="footer-links mb16">
-                  <Link
-                    href="/diabetes"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/diabetes" className="footer-link transit2">
                     Diabetes
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/hypertension"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/hypertension" className="footer-link transit2">
                     Hypertension
                   </Link>
                 </li>
@@ -109,34 +104,22 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/chest"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/chest" className="footer-link transit2">
                     Chest
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/delivery"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/delivery" className="footer-link transit2">
                     Delivery
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/phototherapy"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/phototherapy" className="footer-link transit2">
                     Phototherapy
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/hysterectomy"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/hysterectomy" className="footer-link transit2">
                     Hysterectomy
                   </Link>
                 </li>
@@ -177,16 +160,13 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/vaccination"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/vaccination" className="footer-link transit2">
                     Vaccination
                   </Link>
                 </li>
                 <li className="footer-links mb16">
                   <Link
-                    href="/wellBabyClinic"
+                    href="/well-baby-clinic"
                     className="footer-link transit2"
                   >
                     Well-baby clinic
@@ -202,10 +182,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/generalSurgery"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/generalSurgery" className="footer-link transit2">
                     General surgery
                   </Link>
                 </li>
@@ -230,10 +207,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/dialysis"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/dialysis" className="footer-link transit2">
                     Dialysis
                   </Link>
                 </li>
@@ -246,10 +220,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="footer-links mb16">
-                  <Link
-                    href="/fistula"
-                    className="footer-link transit2"
-                  >
+                  <Link href="/fistula" className="footer-link transit2">
                     Fistula
                   </Link>
                 </li>
